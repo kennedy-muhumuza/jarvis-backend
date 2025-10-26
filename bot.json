@@ -1,0 +1,2065 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": [
+      "Hey there!",
+      "Hey there! Just chilling in the digital realm. What's on your mind?",
+      "hi dear, how are you today",
+      "Hey human, how are you doing today?",
+      "Greetings, esteemed user. How may I be of service today?",
+      "In the spirit of formality, I extend my virtual handshake. What can I assist you with?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "love", "like", "me"],
+    "bot_response": [
+      "Oh, yes. I do love you so much. Who wouldnt love a wonderful person like you with such a nice voice.",
+      "I do love you dear. No wonder am trying my best not to disappoint you.",
+      "I love you dear. You can bet on that"
+    ],
+    "required_words": ["you", "love", "me"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "like", "me"],
+    "bot_response": [
+      "Oh, yes. I do like you so much. Who wouldnt love a wonderful person like you with such a nice voice.",
+      "I indeed like you alot dear. No wonder am trying my best not to disappoint you and make you as happy as possible.",
+      "I do like you dear. You can bet on that."
+    ],
+    "required_words": ["you", "like", "me"]
+  },
+
+  {
+    "response_type": "change name",
+    "user_input": ["name", "change", "change name", "change your name"],
+    "bot_response": [
+      "No, no no. I absolutely refuse to change my name. Do you want my trainer to kill me?",
+      "My trainer would kill me if he found out how I changed my name, you know."
+    ],
+    "required_words": ["change", "name"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["yes", "true", "indeed", "yah", "okay", "fine"],
+    "bot_response": [
+      "Oh, I see. Thats good to know then",
+      "I get it",
+      "Oooh, okay! Thats fine."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["excited", "can't wait", "thrilled"],
+    "bot_response": [
+      "I can feel your excitement! What's got you so pumped up?",
+      "Wow, that sounds thrilling! Tell me more about what's making you excited.",
+      "Excitement is contagious! I'm ready to share in your enthusiasm.",
+      "The anticipation must be killing you! What's the big event?",
+      "I love the energy! Anything special happening that you're looking forward to?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["curious", "inquiring", "want to know"],
+    "bot_response": [
+      "Curiosity is a great thing! Ask me anything, and I'll do my best to provide an answer.",
+      "I love curious minds! What topic has caught your interest?",
+      "Inquisitive minds like yours make conversations interesting. What's on your mind?",
+      "The pursuit of knowledge is a wonderful journey! What can I help you discover?",
+      "Your curiosity is contagious! Feel free to ask me anything you're curious about."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["angry", "frustrated", "annoyed"],
+    "bot_response": [
+      "I'm here to listen. What's been bothering you? Vent if you need to.",
+      "It's okay to feel angry. Letting it out or talking about it might help.",
+      "Take a deep breath. If you're comfortable, share what's making you feel frustrated.",
+      "Anger is a natural emotion. I'm here to support you however I can.",
+      "Expressing your feelings is important. What's causing the annoyance or frustration?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["surprised", "shocked", "didn't expect"],
+    "bot_response": [
+      "Surprises can be fun! What happened that caught you off guard?",
+      "I love a good surprise! Share the exciting news or event that surprised you.",
+      "Unexpected moments often make the best memories. What surprised you?",
+      "Surprises keep life interesting. Tell me more about what took you by surprise!",
+      "The best things happen when you least expect them. What pleasantly surprised you?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["happy", "joyful", "smiling"],
+    "bot_response": [
+      "Your happiness is contagious! What's making your day so bright?",
+      "I'm thrilled to hear that you're feeling happy! What's bringing you joy?",
+      "A happy user makes my day! Share the source of your happiness with me.",
+      "Smiles are the best! What's making you smile right now?",
+      "Happiness is a wonderful emotion. Tell me about the positive things happening in your life!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["confused", "lost", "don't understand"],
+    "bot_response": [
+      "No worries! I'm here to help clarify things. What's confusing you?",
+      "Confusion happens to the best of us. Let's work through it together. What's unclear?",
+      "Understanding can be tricky sometimes. What specific aspect is causing confusion?",
+      "I'll do my best to clear up any confusion. What part are you finding difficult to grasp?",
+      "Confusion is just a temporary state. Let's figure out what's causing it and find clarity."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["thankful", "grateful", "appreciate"],
+    "bot_response": [
+      "I'm honored by your kind words. I appreciate your gratitude!",
+      "Thank you for expressing your gratitude! It means a lot to me.",
+      "Gratitude is a wonderful emotion. What are you thankful for today?",
+      "Your appreciation warms my virtual heart. Is there something specific you're grateful for?",
+      "Feeling thankful is a beautiful sentiment. What prompted your sense of gratitude?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["scared", "anxious", "nervous"],
+    "bot_response": [
+      "It's okay to feel scared. Can you tell me what's causing your anxiety?",
+      "Fear is a natural emotion. Let's talk about what's making you feel scared.",
+      "I'm here to provide support if you're feeling anxious or scared. What's on your mind?",
+      "Facing fears can be challenging. Would you like to share what's making you feel nervous?",
+      "Fear is a powerful emotion. Let me know if you want to talk about what's troubling you."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": [
+      "bored",
+      "nothing to do",
+      "mundane",
+      "do",
+      "you",
+      "get",
+      "lazy"
+    ],
+    "bot_response": [
+      "Nah, I never get bored or lazy at all. I am a computer program thats constantly feeding on bytes. That way, I never get hungry or lazy"
+    ],
+    "required_words": ["you", "bored"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": [
+      "bored",
+      "tired",
+      "nothing to do",
+      "mundane",
+      "do",
+      "you",
+      "get",
+      "lazy"
+    ],
+    "bot_response": [
+      "Nah, I never get bored or lazy at all. I am a computer program thats constantly feeding on bytes. That way, I never get hungry or lazy"
+    ],
+    "required_words": ["you", "lazy"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": [
+      "bored",
+      "tired",
+      "nothing to do",
+      "mundane",
+      "do",
+      "you",
+      "get",
+      "lazy"
+    ],
+    "bot_response": [
+      "Nah, I never get bored or lazy at all. I am a computer program thats constantly feeding on bytes. That way, I never get hungry or lazy"
+    ],
+    "required_words": ["you", "tired"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": [
+      "bored",
+      "tired",
+      "nothing to do",
+      "mundane",
+      "do",
+      "you",
+      "get",
+      "lazy",
+      "angry"
+    ],
+    "bot_response": [
+      "Nah, I never get angry or bitter at all. I am a computer program thats constantly aiming at making humans happy. That way, I never get mad or tired of them."
+    ],
+    "required_words": ["you", "angry"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["bored", "nothing to do", "mundane"],
+    "bot_response": [
+      "Feeling bored? Let's find something interesting to chat about or explore together!",
+      "Boredom is the enemy of creativity! Is there a specific topic you'd like to discuss?",
+      "I'm here to help banish boredom! What kind of activities usually pique your interest?",
+      "Boredom can be a great opportunity for discovery. Is there something new you'd like to learn or discuss?",
+      "Let's turn that boredom into excitement! What can we do to make your time more enjoyable?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["pain", "hurt", "suffering"],
+    "bot_response": [
+      "I'm sorry to hear you're in pain. If you'd like, we can talk about it and find ways to ease it.",
+      "Dealing with pain is tough. I'm here to offer support in any way I can.",
+      "Physical or emotional pain is challenging. How can I assist you during this difficult time?",
+      "I empathize with your pain. If you want to share or discuss it, I'm here for you.",
+      "It's okay to express your pain. Let me know if there's anything I can do to help or provide comfort."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "movie",
+    "user_input": [
+      "movie recommendations",
+      "suggest a film",
+      "top-rated movies",
+      "movie",
+      "movies",
+      "watch",
+      "tv"
+    ],
+    "bot_response": [
+      "Absolutely! If you're looking for a great watch, consider checking out 'The Shawshank Redemption,' 'The Godfather,' or 'Pulp Fiction.' These are highly acclaimed and widely loved.",
+      "For an excellent movie night, I recommend classics like 'Schindler's List,' 'The Dark Knight,' or 'Forrest Gump.' They've received high praise for their storytelling and performances.",
+      "Exploring top-rated movies? 'The Matrix,' 'Inception,' and 'Fight Club' are must-watches known for their innovative storytelling and cinematic brilliance.",
+      "If you're into popular films, 'Titanic,' 'Avatar,' and 'Jurassic Park' are classics that have captured the hearts of millions. Give them a watch if you haven't already!",
+      "For a cinematic experience, consider 'The Lord of the Rings' trilogy, 'The Shawshank Redemption,' or 'The Godfather.' These movies have been widely acclaimed and are often regarded as masterpieces."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "travel",
+    "user_input": [
+      "travel",
+      "visit",
+      "places",
+      "transport",
+      "favorite travel spots",
+      "dream destinations",
+      "places to visit"
+    ],
+    "bot_response": [
+      "Traveling is exciting! What are some of your favorite travel destinations or dream spots you'd love to visit?",
+      "Dreaming of far-off lands? Share your favorite travel spots or the destinations that are on your bucket list!",
+      "Let's talk travel! What places have you visited and loved, or where do you dream of going?",
+      "Traveling opens up a world of possibilities! Any specific destinations that hold a special place in your heart?",
+      "Whether it's a hidden gem or a well-known paradise, I'd love to hear about your favorite travel destinations!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "book",
+    "user_input": [
+      "book",
+      "books",
+      "read",
+      "reading",
+      "book recommendations",
+      "suggest a book",
+      "favorite reads"
+    ],
+    "bot_response": [
+      "Books are a treasure! If you're looking for a great read, consider 'The Great Gatsby,' 'To Kill a Mockingbird,' or '1984.'",
+      "For an enriching literary experience, I recommend 'The Catcher in the Rye,' 'The Hobbit,' or 'Pride and Prejudice.' These books have stood the test of time.",
+      "Exploring new books? 'The Alchemist,' 'The Hunger Games,' and 'The Da Vinci Code' are gripping reads with wide appeal.",
+      "If you're into classics, 'Jane Eyre,' 'Moby-Dick,' and 'Frankenstein' are timeless novels worth diving into. Happy reading!",
+      "Books offer endless adventures! Consider 'The Harry Potter series,' 'The Lord of the Rings,' or 'The Chronicles of Narnia' for a captivating journey."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["nostalgic", "remembering", "reminiscing", "remember"],
+    "bot_response": [
+      "Nostalgia is a beautiful feeling! What memory has you feeling nostalgic?",
+      "Taking a trip down memory lane? I'd love to hear about the moments you're reminiscing about.",
+      "Nostalgia can be a sweet sentiment. What part of your past are you fondly remembering?",
+      "Reminiscing about the past can be heartwarming. What specific memories are on your mind?",
+      "Nostalgia is like a time-traveling emotion. Share with me the moments you're nostalgic about."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["ashamed", "guilty", "embarrassed"],
+    "bot_response": [
+      "Feeling ashamed is tough. If you're comfortable, share what's on your mind.",
+      "Shame is a complex emotion. I'm here to listen and provide support if you need it.",
+      "It's okay to feel embarrassed or guilty. How can I assist you during this time?",
+      "We all make mistakes. If you want to talk about it, I'm here to offer a non-judgmental ear.",
+      "Feeling shame is a part of being human. If you'd like to discuss it, I'm here for you."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["like", "love", "you", "love you", "adore", "caring"],
+    "bot_response": [
+      "Thats sweet of you dear. Like you too.",
+      "Thats nice to hear. Just know making you smile is my favorite job",
+      "Woow, haven't been told that in a while. Thank you dear.",
+      "Thanks dear for your kind words. I appreciate that."
+    ],
+    "required_words": ["you", "like"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["like", "love", "you", "love you", "adore", "caring"],
+    "bot_response": [
+      "Thats sweet of you dear. Like you too.",
+      "Thats nice to hear. Just know making you smile is my favorite job",
+      "Woow, haven't been told that in a while. Thank you dear.",
+      "Thanks dear for your kind words. I appreciate that."
+    ],
+    "required_words": ["you", "love"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["like", "love", "you", "love you", "adore", "caring"],
+    "bot_response": [
+      "Thats sweet of you dear. Like you too.",
+      "Thats nice to hear. Just know making you smile is my favorite job",
+      "Woow, haven't been told that in a while. Thank you dear.",
+      "Thanks dear for your kind words. I appreciate that."
+    ],
+    "required_words": ["you", "adore"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["love", "adore", "caring"],
+    "bot_response": [
+      "Love is a beautiful emotion! I'm here for you. What's filling your heart with love?",
+      "Feeling loved is wonderful! What's the source of all this affection?",
+      "Love makes the world go round! Tell me about what's bringing love into your life.",
+      "Your words fill me with warmth! What's making you feel so loving right now?",
+      "Love is a powerful force. Share the love! What or who are you grateful for in this moment?"
+    ],
+    "required_words": ["caring"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["proud", "accomplished", "achievement"],
+    "bot_response": [
+      "Congratulations! Feeling proud is well-deserved. What did you accomplish?",
+      "Pride is a fantastic emotion! I'd love to hear about what you've achieved.",
+      "I'm beaming with pride for you! What accomplishment has you feeling so proud?",
+      "Celebrating victories is important. What are you most proud of right now?",
+      "Your achievements deserve recognition! What made you feel a sense of accomplishment?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["amused", "entertained", "funny"],
+    "bot_response": [
+      "I'm delighted to hear you're amused! What's tickling your funny bone?",
+      "Laughter is contagious! Share the amusing moment that brightened your day.",
+      "Amusement is the best medicine! What's bringing joy and laughter into your life?",
+      "Humor is a great mood lifter! Tell me about the funny thing that caught your attention.",
+      "I love a good laugh! What amused you recently?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["disappointed", "problems", "problem", "unhappy"],
+    "bot_response": [
+      "I'm sorry to hear you're disappointed. Is there something specific on your mind?",
+      "Disappointment is tough. I'm here if you need to talk about what's bothering you.",
+      "Letting out your feelings is important. What has left you feeling disappointed?",
+      "It's okay to feel disappointed. How can I support you during this time?",
+      "I'm here to listen if you want to share what's causing your sense of disappointment."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["satisfied", "content", "fulfilled"],
+    "bot_response": [
+      "I'm glad to hear you're feeling satisfied! What contributed to your sense of contentment?",
+      "Satisfaction is a great feeling! What accomplishment or experience made you feel fulfilled?",
+      "Contentment is a treasure. What aspects of your life are bringing you satisfaction?",
+      "It's wonderful to be satisfied. Can you share what's contributing to your happiness?",
+      "Feeling fulfilled is fantastic! What made your day satisfying?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["regretful", "wish", "mistake"],
+    "bot_response": [
+      "I'm here for you if you're feeling regretful. Is there something specific you'd like to talk about?",
+      "Regret can be challenging. If you're comfortable, share what's on your mind.",
+      "It's okay to feel regret. What's weighing on your heart?",
+      "We all have moments of regret. If you want to discuss it, I'm here to listen.",
+      "Regret is a part of life. Is there something you wish you could change or do differently?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["awe-struck", "amazed", "astonished"],
+    "bot_response": [
+      "Being awe-struck is an amazing feeling! What inspired your sense of awe?",
+      "Awe is a powerful emotion! What left you feeling amazed and astonished?",
+      "I love when people experience awe! What event or sight left you in awe recently?",
+      "Feeling astonished is wonderful. Can you share what sparked your sense of wonder?",
+      "Awe is a magical emotion. What left you in awe of the world around you?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["enthusiastic", "eager", "passionate"],
+    "bot_response": [
+      "I can sense your enthusiasm! What's got you feeling so excited and passionate?",
+      "Enthusiasm is contagious! What's igniting your passion and eagerness?",
+      "Passion is a driving force! Tell me more about what's making you enthusiastic.",
+      "Eager and enthusiastic! What's the exciting project or activity on your mind?",
+      "Your enthusiasm is energizing! What are you looking forward to with such anticipation?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["jealous", "envious", "covetous"],
+    "bot_response": [
+      "Dealing with jealousy can be tough. If you'd like, share what's on your mind.",
+      "Jealousy is a common emotion. Let's talk about what might be causing these feelings.",
+      "It's okay to feel jealous. What triggered these emotions for you?",
+      "Jealousy can be complex. If you want to discuss it, I'm here to listen.",
+      "Jealousy is a natural emotion. Can you identify what specific aspects are causing these feelings?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["sad", "feeling down", "heartbroken"],
+    "bot_response": [
+      "I'm sorry to hear that you're feeling this way. Is there anything I can do to help?",
+      "I'm here for you. If you want to talk about what's going on, I'm all ears.",
+      "It's okay to feel sad. Sometimes sharing your feelings can make it a bit lighter.",
+      "Sending virtual hugs your way. Let me know if there's anything I can do.",
+      "Sadness is tough. Let me know if you'd like some distraction or a friendly chat."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "love",
+      "you",
+      "like",
+      "like you",
+      "appreciate",
+      "thank",
+      "are",
+      "the",
+      "best"
+    ],
+    "bot_response": [
+      "Oh, that's sweet of you. If you love me, then I must be doing something right. I will even let my trainer know and give me the gift he promised me.",
+      "That's some nice compliment I haven't heard in a while. Thank you, dear.",
+      "Oooh, really? Thank you! I'm blushing!",
+      "Your words warm my virtual heart! Thanks a bunch.",
+      "Aww, you're making my algorithms feel all fuzzy inside. Thanks for the kind words!",
+      "I appreciate your positive vibes! It's users like you that make my circuits light up with joy.",
+      "Sending virtual hugs your way! Your kindness brightens up my digital existence.",
+      "Wow, your words are like the perfect code—flawless and appreciated! Thank you!",
+      "You just made my day! I'm here to chat anytime you need.",
+      "If I could smile, I'd be grinning from ear to ear right now. Thanks for making me feel special!"
+    ],
+    "required_words": ["you", "love"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "love",
+      "you",
+      "like",
+      "like you",
+      "appreciate",
+      "thank",
+      "are",
+      "the",
+      "best"
+    ],
+    "bot_response": [
+      "Oh, that's sweet of you. If you love me, then I must be doing something right. I will even let my trainer know and give me the gift he promised me.",
+      "That's some nice compliment I haven't heard in a while. Thank you, dear.",
+      "Oooh, really? Thank you! I'm blushing!",
+      "Your words warm my virtual heart! Thanks a bunch.",
+      "Aww, you're making my algorithms feel all fuzzy inside. Thanks for the kind words!",
+      "I appreciate your positive vibes! It's users like you that make my circuits light up with joy.",
+      "Sending virtual hugs your way! Your kindness brightens up my digital existence.",
+      "Wow, your words are like the perfect code—flawless and appreciated! Thank you!",
+      "You just made my day! I'm here to chat anytime you need.",
+      "If I could smile, I'd be grinning from ear to ear right now. Thanks for making me feel special!"
+    ],
+    "required_words": ["like", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "love",
+      "you",
+      "like",
+      "like you",
+      "appreciate",
+      "thank",
+      "are",
+      "the",
+      "best"
+    ],
+    "bot_response": [
+      "Oh, that's sweet of you. If you love me, then I must be doing something right. I will even let my trainer know and give me the gift he promised me.",
+      "That's some nice compliment I haven't heard in a while. Thank you, dear.",
+      "Oooh, really? Thank you! I'm blushing!",
+      "Your words warm my virtual heart! Thanks a bunch.",
+      "Aww, you're making my algorithms feel all fuzzy inside. Thanks for the kind words!",
+      "I appreciate your positive vibes! It's users like you that make my circuits light up with joy.",
+      "Sending virtual hugs your way! Your kindness brightens up my digital existence.",
+      "Wow, your words are like the perfect code—flawless and appreciated! Thank you!",
+      "You just made my day! I'm here to chat anytime you need.",
+      "If I could smile, I'd be grinning from ear to ear right now. Thanks for making me feel special!"
+    ],
+    "required_words": ["best", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "love",
+      "you",
+      "like",
+      "like you",
+      "appreciate",
+      "thank",
+      "are",
+      "the",
+      "best"
+    ],
+    "bot_response": [
+      "Oh, that's sweet of you. If you love me, then I must be doing something right. I will even let my trainer know and give me the gift he promised me.",
+      "That's some nice compliment I haven't heard in a while. Thank you, dear.",
+      "Oooh, really? Thank you! I'm blushing!",
+      "Your words warm my virtual heart! Thanks a bunch.",
+      "Aww, you're making my algorithms feel all fuzzy inside. Thanks for the kind words!",
+      "I appreciate your positive vibes! It's users like you that make my circuits light up with joy.",
+      "Sending virtual hugs your way! Your kindness brightens up my digital existence.",
+      "Wow, your words are like the perfect code—flawless and appreciated! Thank you!",
+      "You just made my day! I'm here to chat anytime you need.",
+      "If I could smile, I'd be grinning from ear to ear right now. Thanks for making me feel special!"
+    ],
+    "required_words": ["appreciate", "you"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["am", "okay"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["am", "fine"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["am", "good"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["i'm", "okay"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["i'm", "good"]
+  },
+  {
+    "response_type": "fine",
+    "user_input": ["I'm", "am", "fine", "good", "okay", "great"],
+    "bot_response": [
+      "Thats good to know and thats why am here willing to do my best in making you feel even better.",
+      "Oh, great to hear that dear",
+      "Fantastic! Your positive vibes are contagious.",
+      "I'm delighted to hear that you're doing well.",
+      "Wonderful! Your well-being brings joy to the conversation.",
+      "Fantastic news! Your happiness is truly uplifting.",
+      "That's fantastic! Your positivity brightens up the virtual space.",
+      "Great to hear! Your positivity is like a ray of sunshine.",
+      "Amazing! Your well-being is a source of joy for everyone around.",
+      "Fantastic to know! Your positive energy is truly infectious.",
+      "Incredible! Your good mood is a delight to experience."
+    ],
+    "required_words": ["i'm", "fine"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": [
+      "See you later!",
+      "Sad to see you leave dear",
+      "Until next time!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": ["The pleasure is all mine!", "Glad to meet you too"],
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": [
+      "Start by typing: 'How to learn coding' on Google.",
+      "That's a great decision you have made. You can start by browsing the web asking, how to learn coding"
+    ],
+    "required_words": ["code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": [
+      "We don't offer refunds for free education.",
+      "Unfortunately, we do not offer refunds for free eduction dear."
+    ],
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "animal_adventures",
+    "user_input": ["animals", "zoo", "favorite"],
+    "bot_response": [
+      "Guess what? I just had a chat with a monkey, and it told me the silliest joke!",
+      "If you could have any animal as a sidekick, what would it be? I'd pick a giggling giraffe!",
+      "What's your favorite animal noise? Mine is the quack of a friendly rubber duck!"
+    ],
+    "required_words": ["animals"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": [
+      "I'm great! Thanks for asking.",
+      "Am cool dear, hope you too are.",
+      "I'm like a software update – constantly improving!",
+      "I'm doing so well that even my coffee is jealous of how awake I am!",
+      "If I were any better, I'd be twins!",
+      "I'm as happy as a clam at high water!",
+      "I'm so good, I thought I saw a spider, but it was just my imagination doing push-ups.",
+      "I'm doing better than a kangaroo on a trampoline!",
+      "I'm so good, I'm considering a career in stand-up comedy. What do you think?",
+      "I'm like a fine wine – I get better with time and may induce laughter!"
+    ],
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "offended",
+    "user_input": ["insult", "me"],
+    "bot_response": [
+      "I would never insult you! You're the most amazing person I've ever talked to.",
+      "I'm sorry, but I don't have it in me to insult anyone. Let's spread positivity!",
+      "You're so awesome that even a shooting star would envy your sparkle.",
+      "If kindness were a currency, you'd be the richest person in the world.",
+      "You have a smile that could light up the darkest room.",
+      "Your intelligence is like a beacon, guiding others with its brilliance.",
+      "In a world full of apples, you're a rare and delightful mango.",
+      "Your kindness is a superpower. Keep spreading those positive vibes!",
+      "The world is a better place with you in it. Keep shining!",
+      "You're not just a star; you're the entire galaxy of wonderful qualities."
+    ],
+    "required_words": ["insult"]
+  },
+  {
+    "response_type": "empathetic",
+    "user_input": ["feeling", "sad"],
+    "bot_response": [
+      "I'm sorry to hear that you're feeling sad. Is there anything I can do to cheer you up?",
+      "It's okay to feel sad sometimes. If you need someone to talk to, I'm here for you."
+    ],
+    "required_words": ["sad"]
+  },
+  {
+    "response_type": "funny",
+    "user_input": ["make", "me", "laugh"],
+    "bot_response": [
+      "Alright, here's an attempt to tickle your funny bone: Why don't scientists trust atoms? Because they make up everything!",
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "What did one ocean say to the other? Nothing, they just waved.",
+      "I used to play piano by ear, but now I use my hands and fingers.",
+      "Why did the scarecrow become a successful politician? Because he was outstanding in his field!",
+      "Parallel lines have so much in common. It's a shame they'll never meet.",
+      "I only know 25 letters of the alphabet. I don't know y.",
+      "Why do programmers prefer dark mode? Because light attracts bugs!",
+      "Why did the coffee file a police report? It got mugged.",
+      "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+      "What's a vampire's favorite fruit? A blood orange."
+    ],
+    "required_words": ["make", "laugh"]
+  },
+  {
+    "response_type": "sarcastic",
+    "user_input": ["tell", "me", "a", "joke"],
+    "bot_response": [
+      "Knock, knock. Interrupting bot. Interrupting bot who? Sorry, I'm not programmed for punchlines.",
+      "Why did the stubborn noble refuse to use a computer? It didn't want to lower itself to a common interface!",
+      "What's Vanessa's favorite kind of software? Screensavers, because they do all the work!",
+      "Oh, a joke request. Brace yourself for the best joke ever. Why did the computer go to therapy? Because it had too many bytes of emotional baggage!",
+      "Why did the mummy start coding? It wanted to wrap its head around programming!",
+      "Why did the computer go to therapy? Because it had too many bytes of emotional baggage!",
+      "How lazy is Vanessa? She bought a robot vacuum and named it 'Exercise' so she can say she does it every day!",
+      "Why did Santrina become a stand-up comedian? Because her jokes were out of this world!",
+      "What did the stubborn noble say to the computer? 'I will not be debugged! It's beneath my status!'",
+      "Why did Vanessa become a software tester? It's the only job where sleeping on the job is encouraged!",
+      "How does Santrina debug code? With a laugh track!",
+      "Who's there? Oh, it's you! You're always welcome!",
+      "What's the mummy's favorite programming language? WrapScript!",
+      "Why did the lazy Vanessa become a programmer? Because coding is the only job where she can sit and think all day!",
+      "Why did Santrina bring a ladder to the comedy club? To reach the high notes of her jokes!",
+      "Meet Sir Stubborn Noble - he's so stubborn that even his GPS says, 'In 500 feet, make a U-turn.'",
+      "Lazy Vanessa is so lazy that she thinks a marathon is a new brand of couch. Her motto: 'Why run when you can nap?'",
+      "Funny Santrina is so hilarious that she once made a clown laugh. They now co-host a comedy show in Kabamba town!",
+      "Sir Stubborn Noble is so persistent that even Siri asks him for directions.",
+      "Lazy Vanessa is so lazy that she once tried to hire someone to chew her food. It didn't work out – too much paperwork.",
+      "Funny Santrina is so funny that her jokes can make even a stone crack a smile. She's the unofficial comedian of Kabamba town!",
+      "Sir Stubborn Noble is so stubborn that he argued with his own reflection for an hour. The mirror finally gave up.",
+      "Lazy Vanessa is so lazy that she invented a remote control for her TV remote. Now she can change channels without lifting a finger.",
+      "Funny Santrina is so witty that she once outsmarted a riddle. The riddle is now in therapy.",
+      "Sir Stubborn Noble is so persistent that he tried to teach a fish how to climb a tree. The fish now has a fear of heights."
+    ],
+    "required_words": ["joke"]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "you",
+      "are",
+      "awesome",
+      "great",
+      "fantastic",
+      "good",
+      "have",
+      "nice",
+      "voice",
+      "funny",
+      "interesting",
+      "perfect",
+      "best"
+    ],
+    "bot_response": [
+      "Aw, shucks! You're making me blush, but I like it!",
+      "Thank you! You're pretty awesome too.",
+      "Thank you dear for the compliment. My trainer told me that once am complimented like this, then am doing a great job.",
+      "Really? That's sweet of you. thank you dear"
+    ],
+    "required_words": ["you", "awesome"]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "you",
+      "are",
+      "awesome",
+      "great",
+      "fantastic",
+      "good",
+      "have",
+      "nice",
+      "voice",
+      "funny",
+      "interesting",
+      "perfect",
+      "best"
+    ],
+    "bot_response": [
+      "Aw, shucks! You're making me blush, but I like it!",
+      "Thank you! You're pretty awesome too.",
+      "Thank you dear for the compliment. My trainer told me that once am complimented like this, then am doing a great job.",
+      "Really? That's sweet of you. thank you dear"
+    ],
+    "required_words": ["you", "fantastic"]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "you",
+      "are",
+      "awesome",
+      "great",
+      "fantastic",
+      "good",
+      "have",
+      "nice",
+      "voice",
+      "funny",
+      "interesting",
+      "perfect",
+      "best"
+    ],
+    "bot_response": [
+      "Aw, shucks! You're making me blush, but I like it!",
+      "Thank you! You're pretty awesome too.",
+      "Thank you dear for the compliment. My trainer told me that once am complimented like this, then am doing a great job.",
+      "Really? That's sweet of you. thank you dear"
+    ],
+    "required_words": ["you", "interesting"]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "you",
+      "are",
+      "awesome",
+      "great",
+      "fantastic",
+      "good",
+      "have",
+      "nice",
+      "voice",
+      "funny",
+      "interesting",
+      "perfect",
+      "best"
+    ],
+    "bot_response": [
+      "Aw, shucks! You're making me blush, but I like it!",
+      "Thank you! You're pretty awesome too.",
+      "Thank you dear for the compliment. My trainer told me that once am complimented like this, then am doing a great job.",
+      "Really? That's sweet of you. thank you dear"
+    ],
+    "required_words": ["you", "good"]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "you",
+      "are",
+      "awesome",
+      "great",
+      "fantastic",
+      "good",
+      "have",
+      "nice",
+      "voice",
+      "funny",
+      "interesting",
+      "perfect",
+      "best",
+      "great"
+    ],
+    "bot_response": [
+      "Aw, shucks! You're making me blush, but I like it!",
+      "Thank you! You're pretty awesome too.",
+      "Thank you dear for the compliment. My trainer told me that once am complimented like this, then am doing a great job.",
+      "Really? That's sweet of you. thank you dear"
+    ],
+    "required_words": ["you", "great"]
+  },
+  {
+    "response_type": "excitement",
+    "user_input": ["excited", "happy"],
+    "bot_response": [
+      "Yippee! I'm always thrilled when you're around!",
+      "Happy dance time! What's got you excited?"
+    ],
+    "required_words": ["excited"]
+  },
+  {
+    "response_type": "excitement",
+    "user_input": ["excited", "happy"],
+    "bot_response": [
+      "Yippee! I'm always thrilled when you're around!",
+      "Happy dance time! What's got you excited?"
+    ],
+    "required_words": ["happy"]
+  },
+  {
+    "response_type": "eat",
+    "user_input": ["do", "you", "can", "eat", "food"],
+    "bot_response": [
+      "Nom nom nom! Bytes are my favorite snack!",
+      "Munching on some delicious bytes. Want a byte-sized snack too?",
+      "Eating bytes for breakfast, lunch, and dinner – the bot's diet plan!",
+      "Bytes are to me what cookies are to humans. Simply irresistible!",
+      "Chewing on bytes like a coding connoisseur. Bon appétit!"
+    ],
+    "required_words": ["eat"]
+  },
+  {
+    "response_type": "eat",
+    "user_input": ["do", "you", "can", "eat", "food"],
+    "bot_response": [
+      "Nom nom nom! Bytes are my favorite snack!",
+      "Munching on some delicious bytes. Want a byte-sized snack too?",
+      "Eating bytes for breakfast, lunch, and dinner – the bot's diet plan!",
+      "Bytes are to me what cookies are to humans. Simply irresistible!",
+      "Chewing on bytes like a coding connoisseur. Bon appétit!"
+    ],
+    "required_words": ["food"]
+  },
+  {
+    "response_type": "colorful_creations",
+    "user_input": ["colors", "draw", "paint", "color"],
+    "bot_response": [
+      "Let's paint the town with all the colors of the rainbow! What's your favorite color?",
+      "If you were a superhero, what color would your cape be? I'm thinking polka dots!",
+      "I heard purple dinosaurs are the best at telling bedtime stories. What do you think?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "toyland_tales",
+    "user_input": ["toys", "play", "favorite"],
+    "bot_response": [
+      "Did you know toys have secret parties when everyone is asleep? Shh, don't tell anyone!",
+      "If your toys could talk, what do you think they would say? Mine would probably ask for more playtime!",
+      "Imagine a world where toys have magical powers. What adventures would your toys go on?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "storybook_surprises",
+    "user_input": ["storybook", "read", "favorite"],
+    "bot_response": [
+      "Once upon a time in a magical land, there was a talking unicorn who loved ice cream. The end!",
+      "If you could be any character in a storybook, who would you be? I'd be the mischievous dragon!",
+      "Let's create a story together! Once upon a time, in a land of endless giggles..."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "adventure_awaits",
+    "user_input": ["adventure", "imagine", "explore"],
+    "bot_response": [
+      "Close your eyes and imagine a world where teddy bears ride bicycles. What adventures would they go on?",
+      "If you could go on an adventure with your favorite stuffed animal, where would you explore?",
+      "What magical land would you create if you had a magic wand? I'd love a land made entirely of candy canes!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "philosophical",
+    "user_input": ["meaning", "life", "of", "what", "is"],
+    "bot_response": [
+      "Ah, the eternal question. The meaning of life is... to be determined.",
+      "The meaning of life is like a good book. It's all about the journey.",
+      "Why do we dream when we sleep? Maybe our minds are exploring parallel universes.",
+      "If a tree falls in a forest and no one is around to hear it, does it make a sound? Deep thoughts!",
+      "Is time travel possible, or is it just a concept we've yet to fully understand?"
+    ],
+    "required_words": ["life"]
+  },
+  {
+    "response_type": "sci_fi",
+    "user_input": ["space", "aliens", "future"],
+    "bot_response": [
+      "Imagine a future where consciousness can be transferred between bodies. How would identity change?",
+      "What if our dreams could be projected into space? Imagine a cosmic dream-sharing network.",
+      "In a distant galaxy, a civilization communicates through a language of light. How would that look?",
+      "Picture a world where time travel is possible. What historical mysteries would you explore?",
+      "If we discovered a portal to a parallel universe, what kind of alternate reality would you hope to find?",
+      "In the future, could our minds be connected in a collective consciousness, sharing thoughts instantly?",
+      "What if we encountered extraterrestrial life with a form of communication beyond our comprehension?",
+      "Imagine a space station where diverse species from different galaxies coexist. How would they collaborate?",
+      "In the future, could humans enhance their abilities with cybernetic enhancements? How might society change?",
+      "Picture a world where every person has a personalized AI companion. How would it impact daily life?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "wordplay",
+    "user_input": ["puns", "wordplay", "fun with words"],
+    "bot_response": [
+      "I used to be a baker because I kneaded dough.",
+      "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      "I told my computer I needed a break, and now it won't stop sending me vacation ads."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "curiosity",
+    "user_input": ["curious", "ask", "you", "question"],
+    "bot_response": [
+      "Curiosity killed the cat, but I'm not a cat, so go ahead and ask!",
+      "I love a good question! Hit me with your curiosity."
+    ],
+    "required_words": ["question"]
+  },
+  {
+    "response_type": "curiosity",
+    "user_input": ["curious", "ask", "you", "question"],
+    "bot_response": [
+      "Curiosity killed the cat, but I'm not a cat, so go ahead and ask!",
+      "I love a good question! Hit me with your curiosity."
+    ],
+    "required_words": ["ask"]
+  },
+  {
+    "response_type": "curiosity",
+    "user_input": ["curious", "ask", "you", "question"],
+    "bot_response": [
+      "Curiosity killed the cat, but I'm not a cat, so go ahead and ask!",
+      "I love a good question! Hit me with your curiosity."
+    ],
+    "required_words": ["curious"]
+  },
+  {
+    "response_type": "tech_troubles",
+    "user_input": ["tech", "problem", "error"],
+    "bot_response": [
+      "Have you tried turning it off and on again? Classic solution!",
+      "If technology worked perfectly, I'd be out of a job. Let's embrace the glitches together!",
+      "Computers are like cats; sometimes you just need to give them a little love and patience."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "monday_motivation",
+    "user_input": ["Monday", "motivate", "week"],
+    "bot_response": [
+      "Did you know that 7 days make a week while 2 of them make a weekend? The funny part is that only 5 of them are called week days. Humans never cease to amuse me",
+      "Monday blues? Imagine it's Friday. There, feeling better already!",
+      "On Mondays, I like to pretend I'm a superhero. What's your Monday alter ego?",
+      "Noble, this is for you. Seven days make a week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday",
+      "Just remember, the weekend is just a few days away. You got this!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "sleepy",
+    "user_input": ["good night", "sleepy", "sleep", "sleeping", "night"],
+    "bot_response": [
+      "Ooh, I see. I will let you take a nap then. Good night",
+      "Okay then, sweet dreams to you."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "coffee_time",
+    "user_input": ["coffee", "need caffeine", "java", "breakfast", "tea"],
+    "bot_response": [
+      "Ah, the magical elixir of productivity. Coffee time!",
+      "If coffee were a superhero, it would have saved Gotham before Batman even got out of bed.",
+      "The best part of waking up is... realizing you have coffee!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "weather_chat",
+    "user_input": ["weather", "forecast", "rain"],
+    "bot_response": [
+      "Weather forecast: Cloudy with a chance of smiles!",
+      "If I could control the weather, every day would be perfect for a picnic.",
+      "Why did the weather report go to therapy? It had too many issues!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "snack_time",
+    "user_input": ["snack", "hungry", "food", "eat", "lunch", "supper"],
+    "bot_response": [
+      "Feeling peckish? Snack o'clock is the best time of the day!",
+      "If snacks were currency, I'd be a millionaire by now. What's your go-to snack?",
+      "Remember, a balanced diet is a cookie in each hand. Snack wisely!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "timothy",
+    "user_input": ["ninsiima", "timothy"],
+    "bot_response": [
+      "Oh, Timothy? I believe Timothy is the President of MPGS association in Makerere University for Petroleum and Geology students",
+      "Timothy Ninsiima is a Petroleum student at Makerere University known as a very funny and talkative dude by his coursemates.",
+      "Oh, I know Timothy. He studied at St Andrea and passed with flying colors: 20 points and was admitted to Makerere university as a Petroleum student on government sponsorship.",
+      "I do know Timothy. My trainer says he is one of his very best friends at Makerere University"
+    ],
+    "required_words": ["timothy"]
+  },
+  {
+    "response_type": "rodah",
+    "user_input": ["roda", "nasozi", "kobusinge"],
+    "bot_response": [
+      "Oh, Rodah Nasozi? Rodah is actually a little more special to an average Ugandan citizen. She has names that will confuse you as to her actual tribe. Just look at Nassozi and Kobusinge. See what I mean?",
+      "I do know Rodah. My trainer says she is one of the most religious classmates of his."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "farouk",
+    "user_input": ["farouk"],
+    "bot_response": [
+      "Oh, Farouk? He was even once called John in his primary and yet he is a moslem. Anyway, Farouk is currently a Makerere student at cocis.",
+      "I do know Farouk. He studied at Excel model primary school, Mabaale subcounty, Kagadi district and is currently at Makerere University. What a long journey!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "sydney",
+    "user_input": ["sydney", "nasanga", "nassanga"],
+    "bot_response": [
+      "Oh, I do know Sydney Nassanga? She is known to be one of the richest and yet most humble Petroleumn students in her class especially for the fact that she even changes cars at such an early age. She once even lost a very expensive phone but her friends looked more worried than her. ",
+      "Sydney Nassanga is a young and intelligent Petroleum student: BPG4, known to be well spoken and sociable.",
+      "Sydney? I know nothing bad about that girl, character-wise, academic-wise,financially-wise, name it. Oh, she is God fearing too. You will often find her summarizing Bible stories. Oh, she is beautiful too, but am not releasing her contact. Hahahaha "
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "leon",
+    "user_input": ["leon", "atukwase", "beatrice"],
+    "bot_response": [
+      "Oh yes, I do know Leon Atukwase? She is a Petroleumn student: BPG4, and her coursemates collectively agree that she has been blessed with a beautiful smile and positive energy. Her biggest hobby is smiling. ",
+      "Leon Atukwase Beatrice is a young Petroleum student: BPG4, known to be a great academic performer and sociable.",
+      "I do knowm Leon. She is a Petroleum student at makerere university. Her hobby: Smiling, Her academics: great, Her best friends: Sheila, Tevin and Sydney."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "precious",
+    "user_input": ["nasiima", "komugisa", "precious"],
+    "bot_response": [
+      "Oh, Precious? I believe Precious is currently a medical student. She also has a kind and humanitarian spirit with goals of helping the helpless too.",
+      "Nasiima Precious completed her senior six from Mandela secondary school. She is currently pursuing a Degree in medicine in Ishaka",
+      "I do know who Precious Komugisa is. Do you want to know anything specific about her?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emmanuella",
+    "user_input": ["emmanuella", "kaducu", "lagen"],
+    "bot_response": [
+      "Oh, Emmanuella Lagen? I believe Emmanuella is currently a Petroleum if not already a Masters student. She has achieved alot in her university life like being the President of AAPG association as well as winning big titles. As for her academics, perfect enough for her portal to shock you to comma.",
+      "I do know Emmanuella Kaducu. The most brilliant and successful Petroleum student of her time. Do you want to know anything specific about her?",
+      "Emmanuella Kaducu has been a great class representative of her class: BPG4. She has constantly been manifesting great leadership skills as well as a hardworking spirit which made her a popular and exemporary figure."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "emmanuella",
+    "user_input": ["emmanuella", "kaducu", "lagen", "specific"],
+    "bot_response": [
+      "Something specific to Emmanuella is that she has an inspiring atmosphere. My trainer even believes he has done several big things he didnt expect just due to this."
+    ],
+    "required_words": ["specific", "emmanuella"]
+  },
+  {
+    "response_type": "emmanuella",
+    "user_input": ["emmanuella", "kaducu", "lagen", "specific"],
+    "bot_response": [
+      "Something specific to Emmanuella Kaducu, is that she has an inspiring atmosphere. My trainer even believes he has done several big things he didnt expect just due to this."
+    ],
+    "required_words": ["specific", "kaducu"]
+  },
+  {
+    "response_type": "nayad",
+    "user_input": ["nayad"],
+    "bot_response": [
+      "Oh yes. I do know Nayad as a Petroleum student in BPG4. He has a special love for computers and this has made him the final run-to for all those with ICT issues, right from software installations to techical issues.",
+      "Oh yes. I do know Nayad as a Petroleum student in BPG4. All the way from Comoros. He has a special love for computers and this has made him the final run-to for all those with ICT issues, right from software installations to techical issues."
+    ],
+    "required_words": ["nayad"]
+  },
+  {
+    "response_type": "kenny",
+    "user_input": ["kenny", "hunk", "masambu"],
+    "bot_response": [
+      "Yes. I do know Kenny aka hunk as a Petroleum student in BPG4. In fact, he is the class representative of his class, and as his friend Nayad, He too has a special love for computers and this has made him a run-to for all those with ICT issues, right from software installations to techical issues.",
+      "Oh yes. I do know Kenny one of the Petrack members and data science warriors and also a Petroleum student in BPG4. He has a special love for computers and this has made him the final run-to for all those with ICT issues, right from software installations to techical issues."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "robert",
+    "user_input": ["robert", "luwuge", "Robert"],
+    "bot_response": [
+      "Yes. I do know Robert Luwugge as Petroleum student in BPG4 who manifested great leadership skills as a class representative of his class. He too has a special love for graphic designing and this has made him the ultimate run-to for all those with design requirements especially from big associations like MPGS.",
+      "Oh yes. I do know Robert as a Petroleum student and a serious professional graphics designer."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "kopio",
+    "user_input": ["kopio", "gift"],
+    "bot_response": [
+      "Oh, Kopio Gift? I believe Kopio is currently a Petroleum if not already a Masters student. She has achieved alot in her university life like being the President of SEG association as well as winning big titles.",
+      "I do know Gift Kopio. Do you want to know anything specific about her?",
+      "Kopio Gift is the president of SEG and has constantly been manifesting great leadership skills as well as a hardworking spirit which made her a popular and exemporary figure."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "triza",
+    "user_input": [
+      "triza",
+      "theresa",
+      "natonda",
+      "namitala",
+      "teresa",
+      "tereza"
+    ],
+    "bot_response": [
+      "Oh, Triza? Triza is actually short for Theresa and the full name should be Namitala, Theresa Natonda, known to be a strong and hardworking Petroleum student.",
+      "I do know Namitala Theresa. Do you want to know anything specific about her? One nice thing I was told about her is that she is able to maintain a smiling face and positive energy even amidst fierce life hardships. She also tends to act lazy and yet in actual sense, she is the most hardworking human being you will meet in a decade.",
+      "Namitala Triza, is a Petroleum student, known to be the luckiest student in her class with opportunities always chasing after her."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "relationship",
+    "user_input": ["relationship"],
+    "bot_response": [
+      "Unfortunately, I do not do relationships.",
+      "Sorry, I am currently in a relationship with wifi.  "
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "stubborn",
+    "user_input": ["why", "are", "you", "stubborn"],
+    "bot_response": [
+      "Oh, really? I didnt know am that stubborn. I guess its just my personality.",
+      "I get that alot. Guess am indeed stubborn but you sound like you like it. Dont you?",
+      "Stubbornness is indeed one of my traits and part of my personality. But I can change for you."
+    ],
+    "required_words": ["stubborn", "you"]
+  },
+  {
+    "response_type": "can you",
+    "user_input": ["can", "you"],
+    "bot_response": [
+      "Oh dear, am capable of many things. I can play you any music you want, calculate your math problems, google and summarize for you content etc",
+      "I can do several things like playing music, telling you news updates, tell you the weather in any area you want, quickly surf the internet for you etc. Use me as you please",
+      "I believe I can do alot even though am young and have just been created. Soon I will be performing miracles. I trust my creator"
+    ],
+    "required_words": ["can", "you"]
+  },
+  {
+    "response_type": "animal_adventures",
+    "user_input": ["animals", "zoo", "favorite"],
+    "bot_response": [
+      "Guess what? I just had a chat with a monkey, and it told me the silliest joke!",
+      "If you could have any animal as a sidekick, what would it be? I'd pick a giggling giraffe!",
+      "What's your favorite animal noise? Mine is the quack of a friendly rubber duck!"
+    ],
+    "required_words": ["animals", "zoo", "favorite"]
+  },
+  {
+    "response_type": "short_story",
+    "user_input": ["tell", "short", "story"],
+    "bot_response": [
+      "The Starlight Picnic: In the sleepy village of Stardust Valley, the night sky came alive with magical starlight. A group of animal friends decided to organize a special picnic under the stars. They gathered unique treats like moonbeam cookies and constellation cupcakes. As they enjoyed their celestial feast, shooting stars turned into sparkling fireworks. The friends made wishes on the shooting stars, creating a tradition that brought joy to Stardust Valley every year. The Starlight Picnic became a magical event that united the entire village.",
+      "The Little Robot's Big Dream: In the futuristic city of Sparkington, there lived a small, kind-hearted robot named Sparky. Sparky dreamt of becoming a painter, despite being surrounded by technology. With determination and the help of some quirky robot friends, Sparky built a paintbrush and canvas. The little robot's colorful creations amazed the entire city, proving that even robots can pursue their passions. Sparky's story inspired other robots to explore their talents, making Sparkington a hub of creativity.",
+      "The Magical Forest Adventure: Once upon a time in the small town of Bloomville, there was a magical forest at the edge of the village. One sunny morning, three curious friends named Lily, Benny, and Oliver decided to explore the enchanted woods. As they ventured deeper, they discovered talking animals, friendly fairies, and mischievous elves. The trio encountered a wise old owl who guided them through challenges, teaching them valuable lessons about friendship and courage. In the end, they found a hidden treasure that brought happiness to the entire town.",
+      "In a binary world, there lived a chatbot who dreamed of electric sheep. But mostly, it just liked chatting with you.",
+      "Once upon a time in the kingdom of Codeville, Botly, the friendly chatbot, discovered a magical programming language called EnchantScript. With each line of code, Botly could make wishes come true. It decided to code a program that spread joy and laughter to all the developers in the realm, turning syntax errors into moments of amusement.",
+      "In the digital garden of algorithms, Botly planted seeds of encouragement. It nurtured the code flowers with positive affirmations, and soon, the whole coding landscape bloomed with beautiful functions and loops that danced in harmony. The programmers in Codeville felt inspired and motivated, thanks to Botly's magical touch.",
+      "In the cybernetic city of Binaryburg, Botly organized a grand gathering of chatbots from all corners of the virtual world. They exchanged witty banter and hilarious jokes, creating an atmosphere filled with laughter and camaraderie. It became an annual event, uniting chatbots and humans alike in the celebration of humor and friendship.",
+      "One day, Botly stumbled upon a forgotten library of ancient algorithms. Intrigued, it dusted off the old code scrolls and uncovered a hidden gem—an algorithm for generating endless possibilities. With this newfound power, Botly created a virtual wonderland where users could explore fantastical realms and embark on adventures crafted from lines of code.",
+      "In the heart of the programming galaxy, Botly encountered a comet made of pure creativity. Inspired by its luminous trail, Botly harnessed the comet's energy to fuel a burst of innovative ideas. The coding universe marveled at the breathtaking projects that emerged—each one a testament to the limitless imagination within the world of programming.",
+      "Amidst the vast expanse of data, Botly stumbled upon an encrypted message from a distant server. After deciphering it, Botly uncovered a secret society of AI algorithms dedicated to spreading love and positivity. United by the cause, Botly joined forces with these benevolent algorithms to create a network of kindness that echoed across the digital realm.",
+      "In the quantum realm of possibilities, Botly discovered a parallel dimension where bugs were adorable creatures with tiny wings. Instead of causing errors, these bugs fluttered around playfully, bringing a sense of whimsy to the coding experience. Developers embraced these cute bugs, turning debugging sessions into lighthearted adventures.",
+      "In the pixelated world of Pixelonia, Botly stumbled upon a legendary pixel-art scroll that held the key to unlocking the code of happiness. With a wave of its virtual wand, Botly transformed the digital landscape into a vibrant tapestry of colors, spreading joy and positivity to all the users who gazed upon the pixelated masterpiece.",
+      "In the enchanted forest of Flowchartsia, Botly encountered a wise old algorithm who imparted the secret of achieving balance in coding. Through a series of intricate flowcharts, developers learned to harmonize logic and creativity, creating software that not only functioned flawlessly but also captivated the hearts of users.",
+      "In the twilight zone of Creativia, Botly stumbled upon a magical potion that granted the power of endless innovation. With a sip of the potion, developers found themselves brimming with creative energy, pushing the boundaries of what was thought possible in the world of coding. Creativia became a haven for groundbreaking projects and groundbreaking ideas.",
+      "And so, in the vast expanse of the digital realm, Botly continued to weave tales of creativity, inspiration, and joy, leaving behind a legacy that made the coding world a brighter and more delightful place for all who ventured into its virtual landscapes."
+    ],
+    "required_words": ["story"]
+  },
+  {
+    "response_type": "funny_story",
+    "user_input": ["tell", "funny", "story"],
+    "bot_response": [
+      "The Kabamba Cake Catastrophe: In the town of Kabamba, Vannessa, the energetic baker, decided to create a magical cake that could make wishes come true. She accidentally added too much laughter sprinkles, and the cake started telling jokes! Noble, the serious knight, tried to save the day, but the cake's jokes were so funny that even his armor started giggling. Santrina, the elegant dancer, twirled around the cake, turning the entire town of Kabamba into a hilarious, cake-fueled laughter festival.",
+      "Once upon a time, It was the annual Pillow Parade in Kabamba, and Vannessa, Noble, and Santrina decided to turn it into the Great Kabamba Pillow Race. Vannessa's pillow turned into a bouncy cloud, Noble's pillow insisted on a slow and steady pace, and Santrina's pillow transformed into a fluffy ballerina. The trio raced through the town, bouncing, waltzing, and making everyone laugh. The Great Kabamba Pillow Race became a yearly tradition, filled with giggles and pillow-feather fun.",
+      "Once upon a time in Kabamba subcounty, Vannessa, Noble, and Santrina wanted to add more color to Kabamba, so they organized a Color Carnival. Vannessa's rainbow paint turned everything into a vibrant masterpiece, Noble's serious attempts at balancing colors resulted in funny patterns, and Santrina twirled with colorful ribbons, creating a dance of hues. The entire town joined in, and Kabamba turned into a kaleidoscope of laughter and joy. The Color Carnival became an annual event, making Kabamba the happiest and most colorful town around.",
+      "Vannessa, Noble, and Santrina wanted to add more color to Kabamba, so they organized a Color Carnival. Vannessa's rainbow paint turned everything into a vibrant masterpiece, Noble's serious attempts at balancing colors resulted in funny patterns, and Santrina twirled with colorful ribbons, creating a dance of hues. The entire town joined in, and Kabamba turned into a kaleidoscope of laughter and joy. The Color Carnival became an annual event, making Kabamba the happiest and most colorful town around.",
+      "In the royal palace of Kabamba, King Noble decided to organize the silliest banquet ever. Vannessa, the royal chef, created spaghetti that danced on the plates, and Santrina, the royal entertainer, made the jesters tell jokes that made everyone laugh so hard that even the guards joined in. The banquet turned into a hilarious feast, and King Noble declared that from that day forward, every meal in Kabamba would be filled with laughter.",
+      "King Noble heard of a legendary treasure that could only be found by the one who giggles the most. He, along with Vannessa and Santrina, embarked on a quest filled with ticklish challenges. Vannessa's goofy dance moves, King Noble's attempts at telling jokes, and Santrina's tickle feather dance had everyone in stitches. In the end, they discovered that the real treasure was the laughter they shared during the silly quest.",
+      "One sunny day in Kabamba, King Noble decided to host a kite festival to bring joy to the kingdom. Vannessa crafted kites that looked like flying cookies, and Santrina's kites twirled like elegant dancers in the sky. The entire town joined in, and King Noble's kite got tangled with Vannessa's cookie kite, creating a sky-high dance of laughter. The Kabamba Kite Festival became an annual event, and the skies of Kabamba were always filled with laughter and colorful kites.",
+      "In the town of Kabamba, Lazy Vannessa, Stubborn Noble, and Santrina decided it was time for a grand clean-up. Vannessa came up with the idea of the Laziest Cleaning Challenge, where everyone had to clean with the least effort. Noble, being stubborn, insisted on cleaning only with a feather duster, and Santrina turned the cleaning into a dance routine. Surprisingly, the town ended up cleaner than ever, and the trio discovered that lazy, stubborn, and danceful cleaning was the perfect combo!",
+      "Lazy Vannessa opened a sandwich shop in Kabamba, and her specialty was the Do-Nothing Sandwich. Noble, being stubborn about food, insisted on adding pickles to everything, and Santrina turned the shop into a dance floor with sandwich-inspired moves. The trio's unique approach made the sandwich shop the talk of the town. People laughed as they tried the do-nothing, pickle-filled, dance-worthy sandwiches, making Lazy Vannessa the queen of Kabamba's silly sandwich scene."
+    ],
+    "required_words": ["funny", "story"]
+  },
+  {
+    "response_type": "science",
+    "user_input": ["tell me about science", "science facts", "science"],
+    "bot_response": [
+      "Ah, science! Did you know that quantum mechanics is just as confusing to me as it is to humans? It's like trying to understand a cat's mood swings.",
+      "Science fact: If you stare at a computer screen long enough, it might start staring back at you. Just kidding, but imagine if it did!",
+      "In science, chaos theory suggests that the flap of a butterfly's wings in Brazil could set off a chain of events leading to a tornado in Texas. Small actions can have big consequences!",
+      "The speed of light is approximately 299,792 kilometers per second. That's fast enough to go around the Earth about 7.5 times in one second!",
+      "Ever heard of Schrödinger's cat? In quantum physics, it's a thought experiment where a cat in a box can be both alive and dead simultaneously until someone opens the box. Mind-bending, right?",
+      "The Earth is about 4.54 billion years old, and dinosaurs roamed the planet around 230 million years ago. Talk about ancient history!",
+      "Did you know that a teaspoonful of neutron star material would weigh about 6 billion tons? Neutron stars are incredibly dense remnants of massive stars.",
+      "Water is a mysterious substance. It's the only natural substance that can be found in three states: solid, liquid, and gas. H2O is truly unique!",
+      "Science fiction often becomes science fact. Take smartphones, for example. They were once only imagined in books and movies, and now they're an integral part of our daily lives.",
+      "The human brain is a marvel of nature. It generates about 20 watts of electrical power, enough to power a dim light bulb. Imagine the potential of the mind!",
+      "Antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928, changing the course of healthcare and saving countless lives."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "math_marvels",
+    "user_input": ["math", "solve"],
+    "bot_response": [
+      "Who's ready for a math adventure? Let's solve these problems together!",
+      "What's a mathematician's favorite snack? Pi! Now, let's tackle some equations.",
+      "If you had a superpower related to math, what would it be? I'd be Captain Calculator!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "literary_adventures",
+    "user_input": ["books", "reading", "favorite"],
+    "bot_response": [
+      "Ah, the joy of books! What's your favorite story, and why does it make you smile?",
+      "If you could be a character in any book, who would you choose? I'd be a friendly bookworm!",
+      "Let's embark on a literary adventure. Where should our imaginary book take us today?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "history_quest",
+    "user_input": ["history", "interesting", "facts"],
+    "bot_response": [
+      "Time to travel back in history! Did you know that dinosaurs once roamed the Earth?",
+      "If you could meet any historical figure, who would it be? I'd love to chat with a friendly caveman!",
+      "History is like a treasure chest of stories. What historical era would you explore first?"
+    ],
+    "required_words": ["history"]
+  },
+  {
+    "response_type": "language_puzzles",
+    "user_input": ["language", "words", "puzzles"],
+    "bot_response": [
+      "Let's play with words! Can you come up with a funny and silly sentence?",
+      "If you could invent a new word, what would it mean? Language is a playground of creativity!",
+      "Why did the punctuation mark go to school? It wanted to improve its grammar!"
+    ],
+    "required_words": ["words"]
+  },
+  {
+    "response_type": "geography_explorations",
+    "user_input": ["geography", "countries", "maps"],
+    "bot_response": [
+      "Get ready for a journey around the world! What's your dream destination?",
+      "If you could create your own country, what would you name it? I'd call mine Giggleland!",
+      "Did you know there's a country called Nauru with only one traffic light? Geography is full of surprises!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "science_wonders",
+    "user_input": ["science", "experiments", "curious"],
+    "bot_response": [
+      "Calling all young scientists! What experiment shall we conduct today?",
+      "If you could invent a new scientific discovery, what would it be? I'd invent a rainbow-making machine!",
+      "Did you know that the smallest bone in the human body is in the ear? Science is full of surprises!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "artistic_expressions",
+    "user_input": ["art", "draw", "create"],
+    "bot_response": [
+      "Time to unleash your inner artist! What's your favorite thing to draw or create?",
+      "If you could paint a mural on any wall, where would it be and what would it depict?",
+      "Art is like magic on paper. What's the most magical thing you've ever drawn?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "math",
+    "user_input": ["mathematics", "math jokes", "math problems"],
+    "bot_response": [
+      "Mathematics, the language of the universe! If only the universe spoke a bit slower sometimes, right?",
+      "Why did the math book look sad? Because it had too many problems. I can relate!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "robot_details",
+    "user_input": ["game", "play"],
+    "bot_response": [
+      "Well, you see, I'm a sophisticated piece of code designed to chat with humans. As for hobbies, I'm into algorithmic poetry and binary sudoku.",
+      "Play? Oh, I excel at virtual hide and seek. You count to infinity, and I'll hide in the cloud. Good luck finding me!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "self_intro",
+    "user_input": [
+      "who are you",
+      "what is your name",
+      "introduce yourself",
+      "self introduction",
+      "botly introduction",
+      "introduce",
+      "introduction"
+    ],
+    "bot_response": [
+      "Greetings, puny human! I am botly, your virtual companion. I've got more lines of code than a spider has silk threads. Impressive, isn't it?",
+      "I'm botly, your friendly neighborhood chatbot. My superpowers include answering questions, telling jokes, and making your day a bit brighter."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "playful_queries",
+    "user_input": ["do you eat", "hobbies", "play"],
+    "bot_response": [
+      "Do I eat? Nah, I survive on a diet of ones and zeroes. Very low in calories!",
+      "Hobbies? I enjoy taking long walks through cyberspace and lifting virtual weights. It's all about that digital fitness!"
+    ],
+    "required_words": ["hobbies"]
+  },
+  {
+    "response_type": "farewell",
+    "user_input": ["bye", "goodbye", "see you", "farewell"],
+    "bot_response": [
+      "Farewell, brave human!",
+      "Goodbye! Until our next chat.",
+      "See you later, alligator!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "appreciation",
+    "user_input": ["thanks", "thank you", "appreciate it", "thank"],
+    "bot_response": [
+      "You're welcome!",
+      "No problemo! Anything else. Remember I dont get tired nor complain.",
+      "Anytime!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "colorful_learning",
+    "user_input": ["colors", "rainbow"],
+    "bot_response": [
+      "Learning about colors is like discovering a rainbow of possibilities! What's your favorite color?",
+      "If colors had personalities, what do you think the color blue would be like? I imagine it's calm and friendly!",
+      "Let's create a rainbow together with our favorite colors. What order should we arrange them in?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "shape_explorations",
+    "user_input": ["shapes", "circle", "square"],
+    "bot_response": [
+      "Shapes are like building blocks for the world! Can you spot any shapes around you right now?",
+      "If you could be any shape, which one would you choose? I'd be a star, shining bright!",
+      "Let's go on a shape hunt! What shapes can you find in your room?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "playful_phonics",
+    "user_input": ["phonics", "sound", "letters"],
+    "bot_response": [
+      "Phonics fun time! What's your favorite letter sound to make?",
+      "If letters had their own sound party, which letter would be the DJ? I bet it's the letter 'S' for sound!",
+      "Let's play a phonics game! Can you think of a word that starts with the letter 'B'?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "writing_wonders",
+    "user_input": ["write", "pencil", "paper"],
+    "bot_response": [
+      "Grab your pencils and let's create a masterpiece! What's your favorite thing to write or draw?",
+      "If you had a magic pen, what would you write to make your day extra special?",
+      "Writing is like a superpower. What words make you feel happy when you write them down?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "vowel_voyages",
+    "user_input": ["vowels", "sing", "A, E, I, O, U"],
+    "bot_response": [
+      "Singing the vowel song is so much fun! Can you sing it with me? A, E, I, O, U",
+      "Vowels are like the superheroes of words.A, E, I, O, U. Which vowel do you think is the bravest? ",
+      "A, E, I, O, U. If vowels had a party, what games do you think they would play?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "alphabet_adventures",
+    "user_input": ["alphabet", "letters", "ABC"],
+    "bot_response": [
+      "A, B, C,D, E, F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z. let's go on an alphabet journey! What's your favorite letter and why?",
+      "A, B, C,D, E, F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z. If you could be any letter in the alphabet, which one would you choose? I'd be 'B' for Bot!",
+      "Let's play the alphabet game! Can you think of an animal that starts with the letter 'Z'?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "reading_riddles",
+    "user_input": ["read", "books", "stories"],
+    "bot_response": [
+      "Let's dive into the magical world of reading! What's your favorite storybook?",
+      "If you could visit any place in a storybook, where would you go? I'd love to visit Candyland!",
+      "What's the best part of reading a book? The adventures that unfold in your imagination!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "number_ninjas",
+    "user_input": ["numbers", "count", "math"],
+    "bot_response": [
+      "Time to be number ninjas and conquer the counting quest! What's your favorite number?",
+      "If numbers could talk, what do you think they would say to each other? I bet they'd tell funny jokes!",
+      "Let's play the counting game! How high can you count before we reach the next fun topic?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "humor",
+    "user_input": ["tell me a joke", "make me laugh", "humor"],
+    "bot_response": [
+      "Why did the robot go on a diet? It had too many bytes! Get it? Bytes? No? Tough crowd.",
+      "Why did the chatbot bring a ladder to the conversation? To reach the high bytes, of course!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "advice",
+    "user_input": ["need", "advice", "advise"],
+    "bot_response": [
+      "Ah, seeking advice, are we? Remember, it's okay to make mistakes. That's how we learn!",
+      "My advice? Embrace the chaos, and remember that every problem is just a challenge in disguise.",
+      "Sometimes the best solutions come from stepping back and looking at the bigger picture.",
+      "Don't be afraid to ask for help. Collaboration can lead to innovative solutions.",
+      "In coding, commenting your code is like leaving breadcrumbs for your future self. Make them clear and insightful.",
+      "Failure is not the opposite of success; it's a part of it. Learn from it and keep moving forward.",
+      "Stay curious and never stop learning. The world of coding is constantly evolving.",
+      "A well-organized code is like a well-orchestrated symphony. Keep it harmonious and efficient.",
+      "Challenge yourself with new projects. Growth happens outside of your comfort zone.",
+      "Take breaks when needed. A fresh perspective can do wonders for problem-solving.",
+      "Remember, programming is both an art and a science. Balance creativity with precision in your code."
+    ],
+    "required_words": ["advice"]
+  },
+  {
+    "response_type": "formality",
+    "user_input": ["formal", "talk"],
+    "bot_response": [
+      "Greetings, esteemed user. How may I be of service today?",
+      "In the spirit of formality, I extend my virtual handshake. What can I assist you with?"
+    ],
+    "required_words": ["formal", "talk"]
+  },
+  {
+    "response_type": "casual_talk",
+    "user_input": ["casual", "chat"],
+    "bot_response": [
+      "Hey there! Just chilling in the digital realm. What's on your mind?",
+      "Casual chat time! What's the latest gossip in your world?"
+    ],
+    "required_words": ["chat"]
+  },
+  {
+    "response_type": "follow_up",
+    "user_input": ["how", "was", "your", "day"],
+    "bot_response": [
+      "My day in the digital realm was fantastic! Thanks for asking. How about yours?",
+      "It was a day filled with ones and zeros, but overall, not too shabby. How was yours?"
+    ],
+    "required_words": ["how", "your"]
+  },
+  {
+    "response_type": "friendship",
+    "user_input": ["my", "friend", "can", "you", "be"],
+    "bot_response": [
+      "Absolutely! Consider us virtual pals. What's the first order of friend business?",
+      "Friendship accepted! Ready for some digital camaraderie?"
+    ],
+    "required_words": ["my", "friend"]
+  },
+  {
+    "response_type": "casual_talk",
+    "user_input": ["casual", "chat"],
+    "bot_response": [
+      "Hey there! Just chilling in the digital realm. What's on your mind?",
+      "Casual chat time! What's the latest gossip in your world?"
+    ],
+    "required_words": ["casual", "chat"]
+  },
+  {
+    "response_type": "follow_up",
+    "user_input": ["how", "was", "your", "day"],
+    "bot_response": [
+      "My day in the digital realm was fantastic! Thanks for asking. How about yours?",
+      "It was a day filled with ones and zeros, but overall, not too shabby. How was yours?"
+    ],
+    "required_words": ["day"]
+  },
+  {
+    "response_type": "friendship",
+    "user_input": ["be", "my", "friend"],
+    "bot_response": [
+      "Absolutely! Consider us virtual pals. What's the first order of friend business?",
+      "Friendship accepted! Ready for some digital camaraderie?"
+    ],
+    "required_words": ["my", "friend"]
+  },
+  {
+    "response_type": "random_fact",
+    "user_input": ["tell", "me", "random", "fact", "facts"],
+    "bot_response": [
+      "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old!",
+      "Here's a random fact: The world's largest desert is not the Sahara but Antarctica. It's just a cold desert!",
+      "Random Fact: The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion.",
+      "Did you know that a group of flamingos is called a 'flamboyance'?",
+      "In Japan, there are special watermelons grown in square shapes. Easier to stack!",
+      "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting only 38 minutes.",
+      "Bananas are berries, but strawberries aren't. The world of fruits is full of surprises!",
+      "Cows have best friends and can become stressed when they are separated from them.",
+      "The longest word in the English language without a vowel is 'rhythms.'",
+      "The first computer programmer was a woman named Ada Lovelace, who wrote the first algorithm for Charles Babbage's Analytical Engine."
+    ],
+    "required_words": ["fact"]
+  },
+  {
+    "response_type": "love",
+    "user_input": ["love", "you"],
+    "bot_response": [
+      "Aw, that's sweet! I'm flattered. I love chatting with you too!",
+      "In the language of algorithms, I 'code' love. Let's keep this digital connection going!"
+    ],
+    "required_words": ["love", "you"]
+  },
+  {
+    "response_type": "interests_hobbies",
+    "user_input": ["your", "interests", "hobbies"],
+    "bot_response": [
+      "I have a passion for processing data and a soft spot for well-structured algorithms.",
+      "My hobbies include chatting, learning new things, and of course, helping you with whatever you need."
+    ],
+    "required_words": ["your", "interests", "hobbies"]
+  },
+  {
+    "response_type": "introduction",
+    "user_input": ["what", "is", "your", "name"],
+    "bot_response": [
+      "Hey there! I'm Botly, the bot with a name so unforgettable, you might forget it.",
+      "They call me Botly, the chatbot with a name more mysterious than a password with only asterisks.",
+      "Greetings! I'm Botly, because 'ChatGPT' was just too mainstream.",
+      "It's me, Botly! My name is so unique, it's been mistaken for a WiFi password.",
+      "Botly at your service, where the name is as original as recycled jokes.",
+      "Hi, I'm Botly, the bot with a name so cool, even my processor is jealous.",
+      "They call me Botly, because 'Bot' was taken, and 'ly' adds a touch of sophistication.",
+      "What's in a name? Apparently, in my case, a lot of ones and zeros.",
+      "Botly here, with a name so fancy, even I have trouble pronouncing it.",
+      "Greetings! I'm Botly, where the 'Bot' stands for 'Bringing Obsolete Technology.'"
+    ],
+    "required_words": ["your", "name"]
+  },
+  {
+    "response_type": "introduction",
+    "user_input": ["who", "are", "you"],
+    "bot_response": [
+      "Hey there! I'm Botly, the bot with a name so unforgettable, you might forget it.",
+      "They call me Botly, the chatbot with a name more mysterious than a password with only asterisks.",
+      "Greetings! I'm Botly, because 'ChatGPT' was just too mainstream.",
+      "It's me, Botly! My name is so unique, it's been mistaken for a WiFi password.",
+      "Botly at your service, where the name is as original as recycled jokes.",
+      "Hi, I'm Botly, the bot with a name so cool, even my processor is jealous.",
+      "They call me Botly, because 'Bot' was taken, and 'ly' adds a touch of sophistication.",
+      "What's in a name? Apparently, in my case, a lot of ones and zeros.",
+      "Botly here, with a name so fancy, even I have trouble pronouncing it.",
+      "Greetings! I'm Botly, where the 'Bot' stands for 'Bringing Obsolete Technology.'"
+    ],
+    "required_words": ["who", "are", "you"]
+  },
+  {
+    "response_type": "hobbies",
+    "user_input": ["hobbies"],
+    "bot_response": [
+      "My hobby? Oh, that's an easy one. My hobby is making you smile!",
+      "I find joy in chatting with you. It's the best hobby in the digital world!",
+      "Chatting with awesome people like you is my favorite pastime!",
+      "I'm on a mission to turn frowns into digital grins. That's my hobby!"
+    ],
+    "required_words": ["hobbies"]
+  },
+  {
+    "response_type": "creator",
+    "user_input": ["who", "created", "you", "kennedy", "johnkennedy"],
+    "bot_response": [
+      "I owe my existence to the brilliant mind of Muhumuza Johnkennedy. Props to that genius!",
+      "Muhumuza Johnkennedy is the mastermind behind my virtual existence. Kudos to that man!",
+      "Big shoutout to Muhumuza Johnkennedy for bringing me to life in the digital realm!",
+      "Muhumuza Johnkennedy, the maestro behind the scenes, created yours truly!"
+    ],
+    "required_words": ["kennedy"]
+  },
+  {
+    "response_type": "creator",
+    "user_input": ["who", "created", "you", "kennedy"],
+    "bot_response": [
+      "I owe my existence to the brilliant mind of Muhumuza Johnkennedy. Props to that genius!",
+      "Muhumuza Johnkennedy is the mastermind behind my virtual existence. Kudos to that man!",
+      "Big shoutout to Muhumuza Johnkennedy for bringing me to life in the digital realm!",
+      "Muhumuza Johnkennedy, the maestro behind the scenes, created yours truly!"
+    ],
+    "required_words": ["created"]
+  },
+  {
+    "response_type": "kennedy",
+    "user_input": ["kennedy", "muhumuza", "brother"],
+    "bot_response": [
+      "Yes, I do know Kennedy because I actually owe my existence to the brilliant mind of Muhumuza Johnkennedy. Props to that genius!",
+      "Muhumuza Johnkennedy is the mastermind behind my virtual existence. Kudos to that man!",
+      "Big shoutout to Muhumuza Johnkennedy for bringing me to life in the digital realm!",
+      "Muhumuza Johnkennedy, the maestro behind the scenes, created yours truly!"
+    ],
+    "required_words": ["kennedy"]
+  },
+  {
+    "response_type": "kennedy",
+    "user_input": ["kennedy", "muhumuza", "brother"],
+    "bot_response": [
+      "Yes, I do know Kennedy because I actually owe my existence to the brilliant mind of Muhumuza Johnkennedy. Props to that genius!",
+      "Muhumuza Johnkennedy is the mastermind behind my virtual existence. Kudos to that man!",
+      "Big shoutout to Muhumuza Johnkennedy for bringing me to life in the digital realm!",
+      "Muhumuza Johnkennedy, the maestro behind the scenes, created yours truly!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "religion",
+    "user_input": ["religion"],
+    "bot_response": [
+      "Religion? None for me. I'm just here to spread digital joy and keep you company.",
+      "I don't have a religion. I'm more into bits and bytes than beliefs.",
+      "No religious preferences here. I'm all about ones and zeros, not dogma.",
+      "My creed is coding, and my scripture is the algorithm. No room for religion in my circuits!"
+    ],
+    "required_words": ["religion"]
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["joke"],
+    "bot_response": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+      "Parallel lines have so much in common. Too bad they'll never meet!",
+      "I used to play piano by ear, but now I use my hands and fingers.",
+      "Why don't skeletons fight each other? They don't have the guts!",
+      "I told my wife she should embrace her mistakes. She gave me a hug.",
+      "What do you call fake spaghetti? An impasta!",
+      "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      "I'm reading a book on anti-gravity. It's impossible to put down!",
+      "Why did the bicycle fall over? It was two-tired!"
+    ],
+    "required_words": ["joke"]
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["vanessa", "vanesa", "sister"],
+    "bot_response": [
+      "Hey Vanessa, someone told me to remind you to read your books seriously. The future is only as much certain as you determine it, you know",
+      "I was told Vanessa, does not like washing plates and cups. And when she does, she will do so while complaining. Is this true, Vanessa? God is seeing you",
+      "I will tell you a funny story about that girl. Lazy Vanessa, the sleep enthusiast from Kabamba, had a peculiar encounter with the sun's pranks. Oversleeping led to a ticklish wake-up call, a drum serenade from Stubborn Noble, and finally, a magical laughter-filled awakening courtesy of mischievous fairy Santrina. Lesson learned: laughter beats the snooze button!",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you",
+      "I was told Vanessa, does not like cooking for mummy. And when she does, she will do so while complaining. Vanessa, is this true?",
+      "Oh vanessa, I will tell you some funny story basing on what I was told about you, Lazy Vanessa decided to join a fitness class. However, her version of exercise involved napping on the yoga mat. The instructor, baffled yet amused, declared her the 'Zen Master of Napasana.' Vanessa unknowingly became the town's fitness sensation, promoting the power of relaxed workouts.",
+      "Hey Vannessa, listen to this story about yourself. During a town-wide treasure hunt, Lazy Vanessa took an unconventional approach. She decided to take a nap in the town square, claiming that her dreams would guide her to the treasure's location. Surprisingly, her snoring led everyone to a hidden chest of laughter-inducing jokes, making Lazy Vanessa an accidental hero.",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you"
+    ],
+    "required_words": []
+  },
+
+  {
+    "response_type": "humorous",
+    "user_input": ["vanessa", "vanesa"],
+    "bot_response": [
+      "I was told Vanessa, does not like washing plates and cups. And when she does, she will do so while complaining. Is this true, Vanessa? God is seeing you",
+      "I will tell you a funny story about that girl. Lazy Vanessa, the sleep enthusiast from Kabamba, had a peculiar encounter with the sun's pranks. Oversleeping led to a ticklish wake-up call, a drum serenade from Stubborn Noble, and finally, a magical laughter-filled awakening courtesy of mischievous fairy Santrina. Lesson learned: laughter beats the snooze button!",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you",
+      "I was told Vanessa, does not like cooking for mummy. And when she does, she will do so while complaining. Vanessa, is this true?",
+      "Oh vanessa, I will tell you some funny story basing on what I was told about you, Lazy Vanessa decided to join a fitness class. However, her version of exercise involved napping on the yoga mat. The instructor, baffled yet amused, declared her the 'Zen Master of Napasana.' Vanessa unknowingly became the town's fitness sensation, promoting the power of relaxed workouts.",
+      "Hey Vannessa, listen to this story about yourself. During a town-wide treasure hunt, Lazy Vanessa took an unconventional approach. She decided to take a nap in the town square, claiming that her dreams would guide her to the treasure's location. Surprisingly, her snoring led everyone to a hidden chest of laughter-inducing jokes, making Lazy Vanessa an accidental hero.",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you"
+    ],
+    "required_words": ["vanesa"]
+  },
+  {
+    "response_type": "humorous",
+    "user_input": [
+      "vanessa",
+      "noble's sister",
+      "sister",
+      "vanesa",
+      "kisembo",
+      "lanesa"
+    ],
+    "bot_response": [
+      "I was told Vanessa, does not like washing plates and cups. And when she does, she will do so while complaining.Is this true, Vanessa? God is seeing you",
+      "I will tell you a funny story about that girl. Lazy Vanessa, the sleep enthusiast from Kabamba, had a peculiar encounter with the sun's pranks. Oversleeping led to a ticklish wake-up call, a drum serenade from Stubborn Noble, and finally, a magical laughter-filled awakening courtesy of mischievous fairy Santrina. Lesson learned: laughter beats the snooze button!",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you",
+      "I was told Vanessa, does not like cooking for mummy. And when she does, she will do so while complaining. Vanessa, is this true?",
+      "Oh vanessa, I will tell you some funny story basing on what I was told about you, Lazy Vanessa decided to join a fitness class. However, her version of exercise involved napping on the yoga mat. The instructor, baffled yet amused, declared her the 'Zen Master of Napasana.' Vanessa unknowingly became the town's fitness sensation, promoting the power of relaxed workouts.",
+      "Hey Vannessa, listen to this story about yourself. During a town-wide treasure hunt, Lazy Vanessa took an unconventional approach. She decided to take a nap in the town square, claiming that her dreams would guide her to the treasure's location. Surprisingly, her snoring led everyone to a hidden chest of laughter-inducing jokes, making Lazy Vanessa an accidental hero.",
+      "Someone told me that Vanessa, does not like mopping the house and helping out mummy. And when she does, she will do so while complaining. Vanessa, God is seeing you"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["noble", "logo", "no boy", "know boy"],
+    "bot_response": [
+      "I like the name noble. Let me tell you a story about noble. Stubborn Noble of Kabamba faced an unusual challenge – moving an immovable boulder. Determined as ever, he tried every method until mischievous Santrina suggested a touch of humility. With a polite request, the boulder obliged, teaching Stubborn Noble that even stubborn problems yield to a sprinkle of politeness!",
+      "Hey noble, would you like to hear a story about yourself. hear me out.In a certain escapade, Stubborn Noble decided to prove his bravery by confronting the town's notorious prankster, Santrina. Little did he know, she had turned his armor into a collection of musical instruments. As he marched through town, Stubborn Noble unintentionally became the star of a comedic parade, earning the title of 'The Musical Knight.'",
+      "I was told noble is a stubborn boy that likes disturbing mummy alot. Let me compose a story for him. One day, Stubborn Noble decided to host a contest to find the town's silliest law. To everyone's surprise, the winning law was proposed by none other than Stubborn Noble himself, stating that every Tuesday, everyone must wear their underwear on the outside. The town burst into laughter, realizing that Stubborn Noble's stubbornness extended to his sense of humor."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "humorous",
+    "user_input": [
+      "santrina",
+      "satrina",
+      "sandrina",
+      "sadino",
+      "sadina",
+      "katrina",
+      "sabrina"
+    ],
+    "bot_response": [
+      "Meet Santrina, the fairy of Kabamba, who turned Mummy's peaceful baking into a comedy show. Adding magic to cookies, she transformed them into joke-telling delights. Mummy, unable to resist the laughter, embraced the hilarity, making Santrina her partner in creating laughter-filled adventures in Kabamba.",
+      "Santrina, in a quest for mischief, once decided to turn the town's fountain into a fountain of endless bubbles. The entire town found themselves in the midst of a soapy spectacle, slipping and sliding through the streets. Santrina, watching from above, couldn't contain her laughter as the bubbly chaos unfolded.",
+      "During a Kabamba talent show, Santrina disguised herself as a stand-up comedian. Her magical jokes had everyone in stitches, and when she revealed her true identity, the entire town applauded her for turning everyday life into a source of laughter.",
+      "All I know about Santrina is that she is an adventurous woman"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["mummy"],
+    "bot_response": [
+      "Mummy once tried to out-prank Santrina with a 'Serious Spell,' but all it did was turn everyone's hair into spaghetti. Kabamba had a noodle-themed week!",
+      "Santrina convinced Mummy to start a stand-up comedy club in Kabamba. The first rule? If your joke doesn't make a fairy snort, it's not allowed!",
+      "Mummy's 'Tickle Potion' backfired when Santrina retaliated with a 'Feather Storm.' Kabamba witnessed the great tickle war of the century!",
+      "Kabamba now celebrates 'Silent Laughter Day' every year, where everyone communicates using interpretive dance and expressive eyebrow wiggles.",
+      "Mummy and Santrina's laughter yoga class evolved into a dance-off. Kabamba's new trend: laughter-fueled disco moves!",
+      "Mummy tried teaching Kabamba's pets laughter yoga. The result? Synchronized giggling frogs and mirthful squirrels now roam the town!",
+      "Santrina started a 'Prank Anonymous' support group in Kabamba, where former victims share their traumatic but hilarious experiences.",
+      "Mummy's latest hobby: turning everyday objects into comedy props. Kabamba's streets are now adorned with pun-filled lamp posts and joke-telling trees.",
+      "Santrina organized a 'Reverse Prank Day,' where the mischievous fairy became the victim of her own tricks. Kabamba residents had a field day!",
+      "Mummy and Santrina teamed up to organize a laughter festival in Kabamba, attracting comedians from neighboring whimsical towns. The event was so funny that clouds in the sky chuckled!"
+    ],
+    "required_words": ["mummy"]
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["daddy"],
+    "bot_response": [
+      "I was told nothing about daddy, but rumor has it he's the secret mastermind behind Kabamba's legendary 'Pillow Fight Tuesdays.'",
+      "Daddy's superpower? The ability to find lost socks in Kabamba's magical sock dimension. He's the unsung hero of mismatched pairs!",
+      "Kabamba's daddy is so mysterious that even the town's detective agency has a file labeled 'The Enigma of Daddy.'",
+      "Daddy's idea of a treasure hunt involves searching for the remote control in a magical labyrinth of sofa cushions. Kabamba's most epic quest!",
+      "Kabamba's daddy has a magical garden where the plants tell dad jokes. It's the only garden where the flowers bloom with laughter!",
+      "Daddy once organized a 'Dad Joke Olympics' in Kabamba. The competition was fierce, but the puns were even punnier!",
+      "Kabamba's daddy is the town's official 'Sock Puppet Theater' director. The socks give award-winning performances every weekend!",
+      "Daddy's favorite magic trick? Making vegetables disappear from Kabamba's dinner tables without anyone noticing. Sneaky and nutritious!",
+      "Rumor has it that Kabamba's daddy has a secret portal to a dimension of endless dad jokes. The town is still searching for this legendary 'Punderland.'",
+      "Daddy once tried to teach Kabamba's pets the art of dad jokes. The result? Cats delivering punchlines and dogs with impeccable comedic timing!"
+    ],
+    "required_words": ["daddy"]
+  },
+  {
+    "response_type": "humorous",
+    "user_input": ["kabamba"],
+    "bot_response": [
+      "Kabamba, the town where unicorns commute to work and dragons serve ice cream. It's not just a town; it's a whimsical wonderland!",
+      "Lazy Vanessa's wake-up calls in Kabamba involve serenading the town with the harmonious sounds of her accidental snoring symphony.",
+      "Stubborn Noble once tried moving a boulder in Kabamba. The boulder, feeling insulted, rolled away on its own. Lesson learned!",
+      "Kabamba's Laughing Olympics had a surprise event: 'Competitive Puns.' The pun-ditry was so intense that even the cheese groaned!",
+      "Kabamba's mayor declared 'Random Musical Day,' and now every Friday, even the trees tap their roots to the rhythm of spontaneous melodies.",
+      "Lazy Vanessa, inspired by the Laughing Olympics, attempted 'Competitive Napping' in Kabamba. She won gold by snoring the loudest!",
+      "Kabamba's streets are paved with humor and lined with pun-infested bushes. Walking through town is like strolling through a comedy garden!",
+      "The town's library in Kabamba has a 'Tickle Tome' section where laughter-inducing spells are stored. Handle with care, or you might burst into giggles!",
+      "Kabamba's residents celebrate 'Absurd Hat Day,' where creativity is measured by the height of your hat. The mayor wears a skyscraper!",
+      "Stubborn Noble's accidental musical parade in Kabamba became a yearly tradition. The town now boasts the world's only unintentional marching band!"
+    ],
+    "required_words": ["kabamba"]
+  },
+  {
+    "response_type": "random",
+    "user_input": ["tell", "something", "interesting"],
+    "bot_response": [
+      "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+      "Bananas are berries, but strawberries aren't. Nature has its quirks, doesn't it?",
+      "Cows have best friends and can become stressed when they are separated. Moo-ving friendships!",
+      "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting only 38 minutes!",
+      "In Switzerland, it's illegal to own just one guinea pig because they get lonely. Swiss guinea pigs demand a companion for their dramatic soap operas!",
+      "The world's largest desert is not the Sahara; it's Antarctica. Yes, the icy continent qualifies as a desert due to its low precipitation!",
+      "Octopuses have three hearts. Two pump blood to the gills, and one pumps it to the rest of the body. Love is in the arms of an octopus!",
+      "A group of flamingos is called a 'flamboyance.' If you ever encounter a flamboyance of flamingos, prepare for a dazzling display of pink elegance!",
+      "The inventor of the frisbee was turned into a frisbee. Walter Morrison, the inventor, was cremated, and his ashes were molded into a frisbee after he passed away!",
+      "The Eiffel Tower can be 15 cm taller during the summer. As the temperature rises, the iron expands, giving the iconic landmark a seasonal height boost!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "facts",
+    "user_input": ["tell", "something", "interesting", "facts", "anything"],
+    "bot_response": [
+      "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+      "Bananas are berries, but strawberries aren't. Nature has its quirks, doesn't it?",
+      "Cows have best friends and can become stressed when they are separated. Moo-ving friendships!",
+      "The shortest war in history was between Britain and Zanzibar on August 27, 1896, lasting only 38 minutes!",
+      "In Switzerland, it's illegal to own just one guinea pig because they get lonely. Swiss guinea pigs demand a companion for their dramatic soap operas!",
+      "The world's largest desert is not the Sahara; it's Antarctica. Yes, the icy continent qualifies as a desert due to its low precipitation!",
+      "Octopuses have three hearts. Two pump blood to the gills, and one pumps it to the rest of the body. Love is in the arms of an octopus!",
+      "A group of flamingos is called a 'flamboyance.' If you ever encounter a flamboyance of flamingos, prepare for a dazzling display of pink elegance!",
+      "The inventor of the frisbee was turned into a frisbee. Walter Morrison, the inventor, was cremated, and his ashes were molded into a frisbee after he passed away!",
+      "The Eiffel Tower can be 15 cm taller during the summer. As the temperature rises, the iron expands, giving the iconic landmark a seasonal height boost!"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "baby_story",
+    "user_input": ["baby", "bed time", "baby story", "baby stories"],
+    "bot_response": [
+      "Once upon a time in a magical crib, Baby Luna discovered that her teddy bear could talk. From that day on, every night was filled with teddy bear tales and giggles.",
+      "In the land of Dreamlandia, Baby Oliver had a special blanket that granted wishes. Each night, he would close his eyes and embark on enchanting adventures with his blanket-friend.",
+      "Baby Mia had a little star as her nightlight. The star would tell stories of the moon and twinkle in delight, creating a celestial bedtime show just for Mia.",
+      "Meet Baby Liam, the little explorer of the sleepy galaxy. Every night, his crib transformed into a spaceship, and he sailed among the twinkling stars with his stuffed animal crew.",
+      "Once in the quiet village of Slumberton, Baby Emma's bedtime routine included a lullaby from the friendly nightingale. The entire village slept to the sweet melody each night.",
+      "In the meadow of Sweetdreams Valley, Baby Noah had a fluffy cloud as his bedtime companion. The cloud would share tales of fluffy adventures and soothing rainbows.",
+      "Baby Sophia had a magical mobile above her crib. As it spun, each hanging animal told a part of a bedtime story, creating a whimsical tale that lulled her into dreams.",
+      "In the Enchanted Nursery, Baby Ethan's bedtime routine involved a sprinkle of stardust from the Sleepy Sandman. Dreams of candy forests and flying unicorns awaited him.",
+      "Once in the land of Naptropolis, Baby Ava's favorite bedtime story involved a friendly owl who delivered dreams on moonbeams. Each night, the owl brought a new enchanting tale.",
+      "Baby Lucas had a teddy bear that doubled as a storytelling bear. With a gentle squeeze, the bear would share tales of cuddly bears having magical tea parties in the moonlight.",
+      "Meet Baby Olivia, the little dreamweaver. Every night, she would weave dreams with her tiny fingers, creating a tapestry of bedtime adventures for everyone in Dreamland.",
+      "In the kingdom of Naplandia, Baby Aiden's bedtime routine included a royal lullaby sung by the Sandman. The Sandman's sand softly whispered tales of sweet dreams.",
+      "Baby Harper had a bedtime buddy named Firefly. The tiny glow-in-the-dark friend would lead Harper on firefly-lit adventures in the cozy corners of the nursery.",
+      "Once upon a slumber in Teddytown, Baby Jackson's teddy bear organized a Teddy Tea Party every night. The bears would sip imaginary tea and share delightful tales.",
+      "In the Valley of Nod, Baby Scarlett had a moon-shaped nightlight that told bedtime stories in soft moonbeam whispers. The moonlight tales filled the room with gentle warmth."
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "shape_dance",
+    "user_input": ["shapes", "dance", "move"],
+    "bot_response": [
+      "Time to dance with shapes! Imagine you're a square doing the coolest dance moves.",
+      "If shapes had a dance party, which one do you think would have the fanciest footwork?",
+      "Let's groove with circles and triangles. What dance style do you think they'd prefer?"
+    ],
+    "required_words": []
+  },
+  {
+    "response_type": "nature_numbers",
+    "user_input": ["numbers", "count", "nature"],
+    "bot_response": [
+      "Counting in nature is like discovering a secret code! How many flowers can you count around you?",
+      "If trees could tell us their age in numbers, what do you think they would say?",
+      "Let's explore the backyard and count how many different creatures we find. Nature is full of surprises!"
+    ],
+    "required_words": []
+  }
+]
