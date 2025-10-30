@@ -8,13 +8,11 @@ from gtts import gTTS
 from dotenv import load_dotenv
 import json
 import random
-# import pyttsx3
-import tempfile
 import re
-import random_responses
-# from googlesearch import search
+import requests
+import tempfile
 
-# Local-only TTS (pyttsx3)
+# Local TTS fallback
 try:
     import pyttsx3
     has_pyttsx3 = True
@@ -33,114 +31,170 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ===================== CONFIG =====================
+
+LMSTUDIO_URL = "http://localhost:1234/v1/chat/completions"
+# LMSTUDIO_MODEL = "mistral-7b-instruct-v0.2" Best
+LMSTUDIO_MODEL ="tinyllama-1.1b-chat-v1.0"
+# LMSTUDIO_MODEL = "phi-3-mini"  
+
 
 GTTS_VOICES = {
-    "gtts_uk": {"lang": "en", "tld": "co.uk"},        # British
-    "gtts_us": {"lang": "en", "tld": "com"},          # American
-    "gtts_aus": {"lang": "en", "tld": "com.au"},      # Australian
-    "gtts_ind": {"lang": "en", "tld": "co.in"},       # Indian English
+    "gtts_uk": {"lang": "en", "tld": "co.uk"},
+    "gtts_us": {"lang": "en", "tld": "com"},
+    "gtts_aus": {"lang": "en", "tld": "com.au"},
+    "gtts_ind": {"lang": "en", "tld": "co.in"},
 }
 
+# ===================== HELPERS =====================
+
 def list_pyttsx3_voices():
-    """Return available voice names and IDs for pyttsx3."""
     if not has_pyttsx3:
         return []
     engine = pyttsx3.init()
     voices = engine.getProperty("voices")
-    return [{"id": v.id, "name": v.name, "gender": getattr(v, "gender", "")} for v in voices]
+    return [{"id": v.id, "name": v.name} for v in voices]
+
 
 def load_json(file):
-    with open(file, "r", encoding="utf-8") as bot_responses:
-        print(f"Loaded '{file}' successfully!")
-        botly_responses = json.load(bot_responses)
-        return botly_responses
+    try:
+        with open(file, "r", encoding="utf-8") as f:
+            print(f"Loaded '{file}' successfully!")
+            return json.load(f)
+    except Exception as e:
+        print(f"⚠️ Could not load {file}: {e}")
+        return []
+
 
 response_data = load_json("bot.json")
 
+def load_custom_knowledge(file="custom_knowledge.json"):
+    try:
+        with open(file, "r", encoding="utf-8") as f:
+            print(f"Loaded '{file}' successfully!")
+            return json.load(f)
+    except Exception as e:
+        print(f"⚠️ Could not load {file}: {e}")
+        return []
+
+custom_knowledge = load_custom_knowledge()
+
 
 def extract_user_name(input_string: str):
-    # Regular expression to capture the user's name
-    name_pattern = re.compile(r"(?i)(?:I\s+am\s+called|My\s+name\s+is)\s+([^\s.,;?!]+)")
+    pattern = re.compile(r"(?i)(?:I\s+am\s+called|My\s+name\s+is)\s+([^\s.,;?!]+)")
+    match = pattern.search(input_string)
+    return match.group(1) if match else None
 
-    # Try to find a match in the input string
-    match = name_pattern.search(input_string)
-    
-    if match:
-        # Extract and return the user's name
-        return match.group(1)
 
+def check_custom_knowledge(user_input: str):
+    for entry in custom_knowledge:
+        if any(keyword.lower() in user_input.lower() for keyword in entry.get("keywords", [])):
+            return random.choice(entry["responses"])
     return None
 
 
-def calculate_response(input_string: str):
-    split_message = re.split(r'\s+|[,;?!.-]\s*', input_string.lower())
-    score_list = []
-    
-    user_name = extract_user_name(input_string)
-    
-    if user_name:
-        # Return a response specifically for mentioning the user's name
-        random_reponses = [
-            f"Hey {user_name}! Nice to hear from you. I am Botly by the way",
-            f"Wow, I like your name {user_name}! Did your grand mother give it to you?",
-            f"It feels nice to know you {user_name}! How are you?",
-            f"You have a nice name {user_name}! I wish we could shake hands but sadly, I am yet to have some",
-            f"Great knowing you {user_name}! I am Botly by the way."
-       
-    ]
-        list_count = len(random_reponses)
-        random_item = random.randrange(list_count)
+# ===================== OLLAMA INTEGRATION =====================
 
-        return random_reponses[random_item]
-        # return f"Hey {user_name}! Nice to hear from you."
-
-    # Check all the responses
-    for response in response_data:
-        response_score = 0
-        required_score = 0
-        required_words = response["required_words"]
-
-        # Check if there are any required words
-        if required_words:
-            for word in split_message:
-                if word in required_words:
-                    required_score += 1
-
-        # Amount of required words should match the required score
-        if required_score == len(required_words):
-            # Check each word the user has typed
-            for word in split_message:
-                # If the word is in the response, add to the score
-                if word in response["user_input"]:
-                    response_score += 1
-
-        # Add score to list
-        score_list.append(response_score)
-
-    # Find the best response and return it if they're not all 0
-    best_response = max(score_list, default=0)
-    if best_response != 0:
-
-            
-        response_index = score_list.index(best_response)
-        possible_responses = response_data[response_index]["bot_response"]
+def query_local_ai(prompt: str) -> str:
+    """Query LM Studio for intelligent, conversational responses."""
+    try:
+#         system_prompt = (
+#     "You are Jarvis, Tony Stark's personal AI assistant. "
+#     "Speak confidently, politely, and directly. "
+#     "Keep replies short and conversational. "
+#     "Do NOT mention being an AI or who created you. "
+#     "Always sound like Jarvis from Iron Man — calm, formal, and efficient."
+# )       
+        payload = {
+    "model": LMSTUDIO_MODEL,
+    "messages": [
+        # {"role": "system", "content": system_prompt},
+        {"role": "user", "content": prompt}
         
-        list_count = len(possible_responses)
-        random_item = random.randrange(list_count)
-        selected_response = possible_responses[random_item]
-        # selected_response = random.choice(possible_responses)
-        return selected_response
-    
+    ],
 
-    return random_responses.random_string()
+    "max_tokens": 256,
+    "temperature": 0.7
+}
+    # "messages": [
+    #     {"role": "system", "content": system_prompt},
+    #     {"role": "user", "content": prompt}
+    # ],
 
+
+        response = requests.post(LMSTUDIO_URL, json=payload, timeout=60)
+        response.raise_for_status()
+
+        data = response.json()
+        if "choices" in data and len(data["choices"]) > 0:
+            return data["choices"][0]["message"]["content"].strip()
+        else:
+            return "I'm thinking, but something feels off with my circuits."
+
+    except Exception as e:
+        print("⚠️ LM Studio AI error:", e)
+        return "Sorry, I couldn’t connect to my local mind system. Try again."
+
+
+
+# ===================== MAIN CHAT LOGIC =====================
+
+# def calculate_response(user_input: str):
+#     """
+#     Send user input directly to LM Studio model for natural Jarvis-style chat.
+#     """
+#     if not user_input.strip():
+#         return "I'm here. Go ahead."
+
+#     print("🤖 Querying LM Studio...")
+#     return query_local_ai(user_input)
+
+
+def calculate_response(user_input: str):
+    user_name = extract_user_name(user_input)
+    if user_name:
+        responses = [
+            f"Hey {user_name}! Nice to hear from you. I’m Botly, your AI companion.",
+            f"I like your name, {user_name}! Did your grandma give it to you?",
+            f"It’s great to meet you, {user_name}! How are you feeling today?"
+        ]
+        return random.choice(responses)
+
+    knowledge_reply = check_custom_knowledge(user_input)
+    if knowledge_reply:
+        return knowledge_reply
+
+    # split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
+    # score_list = []
+
+    # for response in response_data:
+    #     score = 0
+    #     required_words = response.get("required_words", [])
+    #     if all(word in split_message for word in required_words):
+    #         for word in split_message:
+    #             if word in response.get("user_input", []):
+    #                 score += 1
+    #     score_list.append(score)
+
+    # best_response = max(score_list, default=0)
+    # if best_response != 0:
+    #     idx = score_list.index(best_response)
+    #     possible = response_data[idx]["bot_response"]
+    #     return random.choice(possible)
+
+    # Fallback to local AI (intelligent response)
+    # print("🤖 Falling back to Ollama intelligent response...")
+    return query_local_ai(user_input)
+
+
+# ===================== ROUTES =====================
 
 @app.get("/")
 def root():
     return {
-        "message": "Jarvis backend is alive!",
+        "message": "Jarvis backend is alive and connected to local AI!",
         "available_gtts_voices": list(GTTS_VOICES.keys()),
-        "available_pyttsx3_voices": list_pyttsx3_voices()
+        "available_pyttsx3_voices": list_pyttsx3_voices(),
     }
 
 
@@ -152,50 +206,37 @@ async def websocket_endpoint(websocket: WebSocket):
     try:
         while True:
             data = await websocket.receive_json()
-            # text = await websocket.receive_text()
             msg_type = data.get("type")
             text = data.get("text", "")
             engine = data.get("engine", "gtts_uk")
-            voice_id = data.get("voice_id") 
+            voice_id = data.get("voice_id")
 
             if text == "__greet__":
-                   greeting = random.choice([
-                    "Hello there! It feels nice to talk to you again.",
+                greeting = random.choice([
+                    "Hello there! Feels nice to talk to you again.",
                     "Hey! How’s your day going so far?",
                     "Ah, there you are! I was just thinking we should chat."
-                   ])
-            await websocket.send_text(greeting)
-                
+                ])
+                await websocket.send_text(greeting)
+                continue
 
             if msg_type == "chat":
                 print(f"User: {text}")
-              
-
                 response = calculate_response(text)
-                # await websocket.send_text(f"🤖 Jarvis: I received '{text}'")
                 await websocket.send_text(response)
 
                 try:
-                    audio_bytes = await synthesize_tts("gtts_uk", response, None)
+                    audio_bytes = await synthesize_tts(engine, response, voice_id)
                     if audio_bytes:
-                       b64_audio = base64.b64encode(audio_bytes).decode("utf-8")
-                       await websocket.send_json({
-                             "type": "tts_result",
-                             "engine": "gtts_uk",
-                            "audio": b64_audio
+                        b64_audio = base64.b64encode(audio_bytes).decode("utf-8")
+                        await websocket.send_json({
+                            "type": "tts_result",
+                            "engine": engine,
+                            "audio": b64_audio,
                         })
                 except Exception as e:
-                  print("TTS failed:", e)
-                await websocket.send_json({
-                   "type": "error",
-                   "message": "TTS failed on server."
-               })
+                    print("TTS failed:", e)
                 continue
-                
-                
-                
-            # talk(response)
-            # return { "bot": response}
 
             elif msg_type == "tts":
                 print(f"TTS requested ({engine}): {text}")
@@ -205,23 +246,24 @@ async def websocket_endpoint(websocket: WebSocket):
                     await websocket.send_json({
                         "type": "tts_result",
                         "engine": engine,
-                        "audio": b64_audio
+                        "audio": b64_audio,
                     })
                 else:
                     await websocket.send_json({
                         "type": "error",
-                        "message": f"TTS engine '{engine}' unavailable."
+                        "message": f"TTS engine '{engine}' unavailable.",
                     })
 
     except WebSocketDisconnect:
         print("❌ Client disconnected.")
 
+
+# ===================== TTS =====================
+
 async def synthesize_tts(engine: str, text: str, voice_id: str | None = None) -> bytes:
-    """Generate speech bytes using gTTS or pyttsx3."""
     if not text.strip():
         return b""
 
-    # ============= gTTS OPTIONS =============
     if engine.startswith("gtts"):
         config = GTTS_VOICES.get(engine, GTTS_VOICES["gtts_uk"])
         tts = gTTS(text=text, lang=config["lang"], tld=config["tld"])
@@ -229,40 +271,26 @@ async def synthesize_tts(engine: str, text: str, voice_id: str | None = None) ->
         tts.write_to_fp(buf)
         return buf.getvalue()
 
-    # ============= pyttsx3 LOCAL =============
     elif engine == "pyttsx3" and has_pyttsx3:
         tts_engine = pyttsx3.init()
         voices = tts_engine.getProperty("voices")
-
-        # Try setting selected voice ID
         if voice_id:
-            try:
-                tts_engine.setProperty("voice", voice_id)
-            except Exception as e:
-                print(f"⚠️ Invalid voice_id {voice_id}: {e}")
-        else:
-            # Try female fallback
-            for voice in voices:
-                if "female" in voice.name.lower() or "zira" in voice.name.lower() or "hazel" in voice.name.lower():
-                    tts_engine.setProperty("voice", voice.id)
-                    break
-
-        tmp_path = "temp_tts.wav"
-        tts_engine.save_to_file(text, tmp_path)
+            tts_engine.setProperty("voice", voice_id)
+        tmp = "temp_tts.wav"
+        tts_engine.save_to_file(text, tmp)
         tts_engine.runAndWait()
-
-        with open(tmp_path, "rb") as f:
-            audio_data = f.read()
-        os.remove(tmp_path)
-        return audio_data
+        with open(tmp, "rb") as f:
+            data = f.read()
+        os.remove(tmp)
+        return data
 
     return b""
 
 
+# ===================== ENTRY =====================
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=5000, reload=True)
-
 
 

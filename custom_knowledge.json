@@ -1,0 +1,20 @@
+[
+  {
+    "id": "emmanuella",
+    "keywords": ["emmanuella", "kaducu", "lagen"],
+    "responses": [
+      "Oh, Emmanuella Lagen? I believe she's a Petroleum Engineering student — possibly doing her Masters now.",
+      "I know Emmanuella Kaducu. Brilliant, visionary, and one of the most respected student leaders in her class.",
+      "Emmanuella Kaducu served as a great class representative of BPG4. A hardworking and inspiring student."
+    ]
+  },
+  {
+    "id": "kennedy",
+    "keywords": ["kennedy", "muhumuza"],
+    "responses": [
+      "Kennedy? The mastermind behind this AI assistant. Creative and unstoppable!",
+      "Ah, Kennedy Muhumuza — I’ve heard he’s quite the tech visionary!",
+      "The AI architect himself — how may I assist you today, Kennedy?"
+    ]
+  }
+]
